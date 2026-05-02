@@ -2,7 +2,7 @@
 
 ---
 
-Списки автоматически обновляются.<br>
+Файлы ежедневно автоматически обновляются.<br>
 
 Прямые ссылки:<br>
 https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geoip.dat<br>

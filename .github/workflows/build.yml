@@ -216,6 +216,31 @@ jobs:
       with:
         go-version-file: geoip/go.mod
         cache: false
+
+    - name: Create config.json
+      run: |
+        set -euo pipefail
+        cat > config.json <<'JSON'
+        {
+          "input": [
+            {
+              "type": "text",
+              "action": "add",
+              "args": {
+                "inputDir": "./ips"
+              }
+            }
+          ],
+          "output": [
+            {
+              "type": "v2rayGeoIPDat",
+              "args": {
+                "outputDir": "./release"
+              }
+            }
+          ]
+        }
+        JSON
         
     - name: Install geoip tool
       run: |
