@@ -1,8 +1,8 @@
-Посмотреть содержимое - https://jomertix.github.io/geofileviewer
-
----
+<h1>На стадии тестирования и доработки.</h1>
 
 Файлы ежедневно автоматически обновляются.<br>
+
+Посмотреть содержимое - https://jomertix.github.io/geofileviewer<br>
 
 Прямые ссылки:<br>
 https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geoip.dat<br>
@@ -67,7 +67,8 @@ geosite.dat
 </table>
 
 
-<br><br><br><br>
+<br>
+
 ## Donation
 
 Самый простой способ поддержать меня, это нажать на звездочку (⭐) в верхней части страницы.<br>
