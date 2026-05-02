@@ -1,0 +1,243 @@
+name: Build geofiles
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - ".gitignore"
+      - "LICENSE*"
+      - "*.md"
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  build-geofiles:
+    runs-on: ubuntu-latest
+    env:
+      CURL: "curl -fsSL --retry 3 --retry-delay 2 --retry-connrefused"
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v6
+
+    - name: Checkout geosite builder
+      uses: actions/checkout@v6
+      with:
+        repository: v2fly/domain-list-community
+        path: community
+
+    - name: Setup Go
+      uses: actions/setup-go@v6
+      with:
+        go-version-file: community/go.mod
+        cache-dependency-path: community/go.sum
+        
+    - name: Download IP lists
+      run: |
+        set -euo pipefail
+        mkdir -p ips
+        rm -rf ips/*
+        ${{ env.CURL }} -o ips/private.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/private.list
+        ${{ env.CURL }} -o ips/ip-for-ru.txt https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/refs/heads/main/ip-for-ru/lists/ips-for-ru.txt
+        ${{ env.CURL }} -o ips/wl-ru.txt https://raw.githubusercontent.com/escapingworm/russia-whitelist/refs/heads/main/ru-whitelist-cidr.txt
+
+    - name: Create domains folder
+      run: |
+        set -euo pipefail
+        mkdir -p domains
+        rm -rf domains/*
+
+    - name: Download raw and build banned domain lists
+      run: |
+        set -euo pipefail
+        mkdir -p tmpdomains/raw tmpdomains/ready
+        rm -rf tmpdomains/raw/* tmpdomains/ready/*
+
+        # Где надо чистить формат
+        ${{ env.CURL }} -o tmpdomains/raw/itdog-russia-inside-raw.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-raw.lst
+        ${{ env.CURL }} -o tmpdomains/raw/community-antifilter-domains.txt https://community.antifilter.download/list/domains.lst
+        ${{ env.CURL }} -o tmpdomains/raw/community-refilter-domains.txt https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/community.lst
+        
+        ${{ env.CURL }} -o tmpdomains/raw/category-geoblock-ru.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/category-geoblock-ru
+        
+        ${{ env.CURL }} -o tmpdomains/raw/telegram.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/telegram.lst
+        ${{ env.CURL }} -o tmpdomains/raw/google_play.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/google_play.lst
+        ${{ env.CURL }} -o tmpdomains/raw/meta.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/meta.lst
+        ${{ env.CURL }} -o tmpdomains/raw/youtube.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/youtube.lst
+        ${{ env.CURL }} -o tmpdomains/raw/google_ai.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/google_ai.lst
+
+        # Где не надо чистить формат
+        ${{ env.CURL }} -o tmpdomains/ready/telegram2.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/telegram       
+        ${{ env.CURL }} -o tmpdomains/ready/youtube2.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/youtube
+
+        {
+          awk '
+            {
+              gsub(/\r/, "")
+              sub(/^[[:space:]]+/, "")
+              sub(/[[:space:]]+$/, "")
+            }
+
+            /^[[:space:]]*$/ { next }
+            /^[[:space:]]*#/ { next }
+            /^regexp:/ { next }
+            /^include:/ { next }
+
+            {
+              sub(/^\+\./, "")
+              sub(/^domain:/, "")
+              sub(/^keyword:/, "")
+              sub(/^full:/, "")
+              sub(/^\./, "")
+            }
+
+            /^[[:space:]]*$/ { next }
+            /\.$/ { next }
+
+            { print }
+          ' tmpdomains/raw/*.txt
+
+          awk '
+            {
+              gsub(/\r/, "")
+              sub(/^[[:space:]]+/, "")
+              sub(/[[:space:]]+$/, "")
+            }
+
+            /^[[:space:]]*$/ { next }
+            /^[[:space:]]*#/ { next }
+            /^include:/ { next }
+
+            { print }
+          ' tmpdomains/ready/*.txt
+        } > domains/banned.txt
+
+    - name: Download raw and modify domain lists
+      run: |
+        set -euo pipefail
+
+        ${{ env.CURL }} -o domains/category-ru.txt https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/refs/heads/main/rules/category-ru.lst
+        ${{ env.CURL }} -o domains/category-ip-geo-detect.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ip-geo-detect.list
+
+        for f in domains/*.txt; do
+          awk '
+            {
+              gsub(/\r/, "")
+              sub(/^[[:space:]]+/, "")
+              sub(/[[:space:]]+$/, "")
+              if ($0 == "" || $0 ~ /^#/) next
+              if ($0 ~ /^(domain|keyword|full|regexp|include):/) { print; next }
+
+              if ($0 ~ /^\+\..+\.\*$/) {
+                s = $0
+                sub(/^\+\./, "", s)
+                sub(/\.\*$/, "", s)
+                print "keyword:" s
+                next
+              }
+
+              if ($0 ~ /^\+\./) {
+                s = $0
+                sub(/^\+\./, "", s)
+                print "domain:" s
+                next
+              }
+
+              if ($0 ~ /^\./) {
+                s = $0
+                sub(/^\./, "", s)
+                print "domain:" s
+                next
+              }
+
+              print "domain:" $0
+            }
+          ' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+        done
+
+    - name: Download xray ru domain lists
+      run: |
+        set -euo pipefail
+        ${{ env.CURL }} -o domains/wl-ru.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/whitelist
+        ${{ env.CURL }} -o domains/private.txt https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/master/data/private
+
+        for f in domains/*.txt; do
+          awk '
+            {
+              gsub(/\r/, "")
+            }
+            /^[[:space:]]*$/ { next }
+            /^[[:space:]]*#/ { next }
+            { print }
+          ' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+        done
+
+    - name: Sort and deduplicate domain lists
+      run: |
+        set -euo pipefail
+
+        shopt -s nullglob
+        for f in domains/*.txt; do
+          LC_ALL=C sort -u "$f" > "$f.tmp"
+          mv "$f.tmp" "$f"
+        done
+
+    - name: Build geosite.dat
+      run: |
+        set -euo pipefail
+        
+        rm -rf /tmp/geosite-data /tmp/out
+        mkdir -p /tmp/geosite-data /tmp/out release
+        
+        for f in domains/*.txt; do
+          base="$(basename "$f" .txt)"
+          cp -f "$f" "/tmp/geosite-data/$base"
+        done
+        
+        pushd community >/dev/null
+        go run ./ --datapath=/tmp/geosite-data --outputdir=/tmp/out
+        popd >/dev/null
+        
+        test -s /tmp/out/dlc.dat
+        cp -f /tmp/out/dlc.dat release/geosite.dat
+
+    - name: Checkout geosite builder
+      uses: actions/checkout@v6
+      with:
+        repository: Loyalsoldier/geoip
+        path: geoip
+
+    - name: Setup Go for geoip
+      uses: actions/setup-go@v6
+      with:
+        go-version-file: geoip/go.mod
+        cache: false
+        
+    - name: Install geoip tool
+      run: |
+        go install github.com/Loyalsoldier/geoip@latest
+        
+    - name: Build dat
+      run: |
+        geoip convert
+       
+    - name: Generate hash
+      run: |
+        sha256sum release/geoip.dat > release/geoip.dat.sha256sum
+        sha256sum release/geosite.dat > release/geosite.dat.sha256sum
+    
+
+    - name: Commit and push generated files
+      run: |
+        git config user.name "Geofiles Generator"
+        git config user.email "geofiles-generator@github.com"
+        mkdir -p ips domains release
+        git add ips/*
+        git add domains/*
+        git add release/*
+        git commit -m "Update Geofiles" || echo "No changes"
+        git push
