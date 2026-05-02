@@ -19,7 +19,7 @@ geoip.dat
 </thead>
   <tbody>
     <tr>
-      <td><code>ip-for-ru</code></td>
+      <td><code>ru</code></td>
       <td>RU+BY, RU CDN, RU ISPs<br> Взято отсюда: https://github.com/Davoyan/mihomo-rule-sets</td>
     </tr>
     <tr>

@@ -42,7 +42,7 @@ jobs:
         mkdir -p ips
         rm -rf ips/*
         ${{ env.CURL }} -o ips/private.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/private.list
-        ${{ env.CURL }} -o ips/ip-for-ru.txt https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/refs/heads/main/ip-for-ru/lists/ips-for-ru.txt
+        ${{ env.CURL }} -o ips/ru.txt https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/refs/heads/main/ip-for-ru/lists/ips-for-ru.txt
         ${{ env.CURL }} -o ips/wl-ru.txt https://raw.githubusercontent.com/escapingworm/russia-whitelist/refs/heads/main/ru-whitelist-cidr.txt
 
     - name: Create domains folder
