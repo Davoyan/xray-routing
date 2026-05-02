@@ -2,10 +2,36 @@
 
 ---
 
-Прямые ссылки:
+Списки автоматически обновляются.<br>
 
-https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geoip.dat
+Прямые ссылки:<br>
+https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geoip.dat<br>
 https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geosite.dat
+
+---
+
+geoip.dat
+<table width="100%">
+  <tr>
+    <th>Категория</th>
+    <th>Описание</th>
+  </tr>
+</thead>
+  <tbody>
+    <tr>
+      <td><code>ip-for-ru</code></td>
+      <td>RU+BY, RU CDN, RU ISPs<br> Взято отсюда: https://github.com/Davoyan/mihomo-rule-sets</td>
+    </tr>
+    <tr>
+      <td><code>wl-ru</code></td>
+      <td>IP доступные при любых ограничениях</td>
+    </tr>
+    <tr>
+      <td><code>private</code></td>
+      <td>IP локальных сетей</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -40,26 +66,3 @@ geosite.dat
   </tbody>
 </table>
 
-
-geoip.dat
-<table width="100%">
-  <tr>
-    <th>Категория</th>
-    <th>Описание</th>
-  </tr>
-</thead>
-  <tbody>
-    <tr>
-      <td><code>ip-for-ru</code></td>
-      <td>RU+BY, RU CDN, RU ISPs<br> Взято отсюда: https://github.com/Davoyan/mihomo-rule-sets</td>
-    </tr>
-    <tr>
-      <td><code>wl-ru</code></td>
-      <td>IP доступные при любых ограничениях</td>
-    </tr>
-    <tr>
-      <td><code>private</code></td>
-      <td>IP локальных сетей</td>
-    </tr>
-  </tbody>
-</table>
