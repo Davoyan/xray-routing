@@ -49,7 +49,7 @@ geosite.dat
     </tr>
     <tr>
       <td><code>category-ip-geo-detect</code></td>
-      <td>IP Checkers (ipinfo.ip, etc.)</td>
+      <td>IP Checkers (ipinfo.io, etc.)</td>
     </tr>
     <tr>
       <td><code>category-ru</code></td>

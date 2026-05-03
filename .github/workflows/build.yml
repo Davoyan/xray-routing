@@ -10,7 +10,7 @@ on:
       - "*.md"
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '45 1 * * *'
 
 jobs:
   build-geofiles:
