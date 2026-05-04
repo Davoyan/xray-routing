@@ -5,7 +5,6 @@ domain:24h.tv
 domain:2gis.ae
 domain:2gis.am
 domain:2gis.az
-domain:2gis.by
 domain:2gis.com
 domain:2gis.com.cy
 domain:2gis.cz
@@ -73,8 +72,8 @@ domain:bk6bba-resources.com
 domain:bonus-card.ml
 domain:boosty.to
 domain:botmechanic.io
-domain:bps-sberbank.by
 domain:bronevik.com
+domain:by
 domain:cabconnect.org
 domain:careeny.xyz
 domain:careery.xyz
@@ -93,7 +92,6 @@ domain:ciciq.net
 domain:cloudpayments.world
 domain:cloudru.cn
 domain:clstorage.net
-domain:codeseason.by
 domain:coloradogrowers.com
 domain:comss.club
 domain:comss.info
@@ -130,7 +128,6 @@ domain:drweb-av.de
 domain:drweb-av.es
 domain:drweb-av.it
 domain:drweb-av.pl
-domain:drweb.by
 domain:drweb.cn
 domain:drweb.co.jp
 domain:drweb.com
@@ -181,7 +178,6 @@ domain:halva.im
 domain:halva.promo
 domain:halva.tel
 domain:hayya.ae
-domain:hh.by
 domain:hh.kz
 domain:home.bank
 domain:host1861554.hostland.pro
@@ -376,9 +372,7 @@ domain:okkoapi.tv
 domain:okl.lt
 domain:okolo.app
 domain:oskelly.co
-domain:ozon.by
 domain:ozon.com
-domain:ozon.com.by
 domain:ozon.com.kz
 domain:ozon.dev
 domain:ozon.express
@@ -388,11 +382,7 @@ domain:ozon.tech
 domain:ozon.tm
 domain:ozon.travel
 domain:ozoncamp.pro
-domain:ozoncom.by
 domain:ozonglobalevents.com
-domain:ozonpartners.by
-domain:ozonrocet.by
-domain:ozonroket.by
 domain:ozonru.co.il
 domain:ozonru.com
 domain:ozonru.eu
@@ -417,10 +407,8 @@ domain:psk
 domain:pskb.com
 domain:pushgrow.io
 domain:pvubank.com
-domain:rabota.by
 domain:redheadsound.studio
 domain:restream-media.net
-domain:rocketozon.by
 domain:roistat.com
 domain:rosbank-credit.com
 domain:roscap.com
@@ -443,7 +431,6 @@ domain:rwbautomation.tech
 domain:saas-support.com
 domain:safeliner.tech
 domain:sage-observability.tech
-domain:sber-bank.by
 domain:sber-impulse.com
 domain:sber.cfd
 domain:sber.cn
@@ -518,7 +505,6 @@ domain:svy59w.shop
 domain:swentr.site
 domain:t-atm.org
 domain:t-avia.org
-domain:t-bank.by
 domain:t-capy.org
 domain:t-finance.group
 domain:t-gorod.org
@@ -537,7 +523,6 @@ domain:taxitax.org
 domain:taxsee.com
 domain:tbank-online.com
 domain:tbankjob.site
-domain:tdev.by
 domain:tehnodom.com
 domain:telega.info
 domain:telega.me
@@ -632,7 +617,6 @@ domain:wb.am
 domain:wb.kg
 domain:wb.kz
 domain:wbautomation.tech
-domain:wbr.by
 domain:wbstatic.net
 domain:wbwh.tech
 domain:webvisor.com
@@ -641,7 +625,6 @@ domain:whitesaas.com
 domain:whoosh.bike
 domain:wibes.com
 domain:wildberries.am
-domain:wildberries.by
 domain:wildberries.co.il
 domain:wildberries.es
 domain:wildberries.eu
@@ -694,7 +677,6 @@ domain:yandex-bank.net
 domain:yandex.aero
 domain:yandex.asia
 domain:yandex.az
-domain:yandex.by
 domain:yandex.cloud
 domain:yandex.co.il
 domain:yandex.com
