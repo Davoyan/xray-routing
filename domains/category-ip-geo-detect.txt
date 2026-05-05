@@ -35,6 +35,7 @@ domain:getipintel.net
 domain:greip.io
 domain:hackertarget.com
 domain:httpbin.org
+domain:i.pn
 domain:icanhazip.com
 domain:ident.me
 domain:ifconfig.co
