@@ -80,6 +80,7 @@ domain:ipfind.io
 domain:ipfinder.io
 domain:ipgeo.vercel.app
 domain:ipgeolocation.io
+domain:ipify.cn
 domain:ipify.org
 domain:ipinfo.io
 domain:ipip.net
@@ -97,8 +98,10 @@ domain:iproyal.com
 domain:ipstack.com
 domain:ipv4-check-perf.radar.cloudflare.com
 domain:ipv4-internet.yandex.net
+domain:ipv4.internet.yandex.net
 domain:ipv6-check-perf.radar.cloudflare.com
 domain:ipv6-internet.yandex.net
+domain:ipv6.internet.yandex.net
 domain:ipverify.com
 domain:ipw.cn
 domain:ipwho.is
