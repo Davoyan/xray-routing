@@ -334,6 +334,7 @@ domain:cdn-spotify-experiments.conductrics.com
 domain:cdn-telegram.org
 domain:cdn.betterttv.net
 domain:cdn.id.supercell.com
+domain:cdn.jsdelivr.net
 domain:cdn.oaistatic.com
 domain:cdn.web-platform.io
 domain:cdn2site.com
