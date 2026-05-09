@@ -65,8 +65,7 @@ jobs:
         ${{ env.CURL }} -o tmpdomains/raw/category-geoblock-ru.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/category-geoblock-ru
         
         ${{ env.CURL }} -o tmpdomains/raw/telegram.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/telegram.lst
-        #Сомнительно то что там есть connectivitycheck.gstatic.com 
-        #${{ env.CURL }} -o tmpdomains/raw/google_play.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/google_play.lst
+        ${{ env.CURL }} -o tmpdomains/raw/google_play.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/google_play.lst
         ${{ env.CURL }} -o tmpdomains/raw/meta.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/meta.lst
         ${{ env.CURL }} -o tmpdomains/raw/youtube.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/youtube.lst
         ${{ env.CURL }} -o tmpdomains/raw/google_ai.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/google_ai.lst
