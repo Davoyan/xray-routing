@@ -111,6 +111,7 @@ domain:amplitude.com
 domain:amx.com
 domain:analog.com
 domain:andrevi.ch
+domain:android.clients.google.com
 domain:angryemailtranslator.com
 domain:anidub.com
 domain:anilib.me
@@ -227,6 +228,7 @@ domain:bbci.co.uk
 domain:bcbits.com
 domain:bdurl.net
 domain:beacon3d.com
+domain:beacons.gvt2.com
 domain:beammp.com
 domain:beamng.com
 domain:beamng.gmbh
@@ -410,6 +412,7 @@ domain:community.cisco.com
 domain:community.instagram.com
 domain:community.sophos.com
 domain:connect.ngrok-agent.com
+domain:connectivitycheck.gstatic.com
 domain:consent.trustarc.com
 domain:contabo.com
 domain:contest.com
@@ -754,6 +757,7 @@ domain:golosameriki.com
 domain:gonift.com
 domain:gonitro.com
 domain:goodreads.com
+domain:googleplay.com
 domain:googletagmanager.com
 domain:googlevideo.com
 domain:gordonua.com
@@ -998,6 +1002,7 @@ domain:lf16-pkgcdn.pitaya-clientai.com
 domain:lf19-pkgcdn.pitaya-clientai.com
 domain:lgeapi.com
 domain:lgthinq.com
+domain:lh3.googleusercontent.com
 domain:lib.rus.ec
 domain:libgen.li
 domain:libgen.rs
@@ -1404,6 +1409,11 @@ domain:pkgs.tailscale.com
 domain:plab.site
 domain:platform.activestate.com
 domain:platform.twitter.com
+domain:play-fe.googleapis.com
+domain:play-games.googleusercontent.com
+domain:play-lh.googleusercontent.com
+domain:play.google.com
+domain:play.googleapis.com
 domain:playboy.com
 domain:playnintendo.com
 domain:plugin-alliance.com
@@ -1457,6 +1467,7 @@ domain:primevue.org
 domain:privatekeys.pw
 domain:prnt.sc
 domain:proactivebackend-pa.googleapis.com
+domain:prod-lt-playstoregatewayadapter-pa.googleapis.com
 domain:prod-network-api.wbagora.com
 domain:production-openaicom-storage.azureedge.net
 domain:proekt.media
