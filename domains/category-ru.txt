@@ -276,6 +276,7 @@ domain:jivochat.ng
 domain:jivosite.com
 domain:jump.finance
 domain:jump.taxi
+domain:justveryok.com
 domain:kamkombank.pro
 domain:kaspersky-labs.com
 domain:kaspersky.be
@@ -312,6 +313,7 @@ domain:kaspersky.pt
 domain:kaspersky.ro
 domain:kaspersky.rs
 domain:kaspersky.se
+domain:keyboardmen.com
 domain:kinescope.io
 domain:kinescopecdn.net
 domain:kinorium.com
@@ -398,6 +400,12 @@ domain:neon.click
 domain:netmonet.co
 domain:ngenix.net
 domain:noda.finance
+domain:odnoklasniki.ua
+domain:odnoklassniki.am
+domain:odnoklassniki.co.ee
+domain:odnoklassniki.eu
+domain:odnoklassniki.lv
+domain:odnoklassniki.tj
 domain:ognihome.com
 domain:oidconnect.com
 domain:ok.me
@@ -442,6 +450,8 @@ domain:psk
 domain:pskb.com
 domain:pushgrow.io
 domain:pvubank.com
+domain:pz.help
+domain:rabbitcounter.com
 domain:redheadsound.studio
 domain:restream-media.net
 domain:roistat.com
@@ -466,6 +476,7 @@ domain:rwbautomation.tech
 domain:saas-support.com
 domain:safeliner.tech
 domain:sage-observability.tech
+domain:sayeasy.eu
 domain:sber-impulse.com
 domain:sber.cfd
 domain:sber.cn
