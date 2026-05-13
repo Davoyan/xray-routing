@@ -72,6 +72,7 @@ domain:ipapi.co
 domain:ipapi.com
 domain:ipapi.is
 domain:ipbase.com
+domain:ipbot.com
 domain:ipcalf.com
 domain:ipchicken.com
 domain:ipdata.co
@@ -91,6 +92,7 @@ domain:iplocate.io
 domain:iplocation.com
 domain:iplocation.io
 domain:iplocation.net
+domain:iplookup.it
 domain:ipqualityscore.com
 domain:ipquery.io
 domain:ipregistry.co
