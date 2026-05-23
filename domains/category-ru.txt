@@ -342,11 +342,13 @@ domain:kubancredit.net
 domain:kubankredit.biz
 domain:kubankredit.com
 domain:kubankredit.net
+domain:kudago.com
 domain:lead-pro2023.online
 domain:lenta.com
 domain:lenta.tech
 domain:lmru.tech
 domain:locko-bank.info
+domain:lomont.site
 domain:lovina.app
 domain:magnit.com
 domain:mail-carrotquest.io
@@ -456,6 +458,7 @@ domain:pvubank.com
 domain:pz.help
 domain:rabbitcounter.com
 domain:redheadsound.studio
+domain:remanga.org
 domain:restream-media.net
 domain:roistat.com
 domain:rosbank-credit.com
@@ -522,6 +525,7 @@ domain:servercore.live
 domain:set.ki
 domain:shedevrum.ai
 domain:shop-rt.com
+domain:shopstory.live
 domain:showip.net
 domain:sistema-capital.com
 domain:skbx.pro
