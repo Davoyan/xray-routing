@@ -459,6 +459,7 @@ domain:pz.help
 domain:rabbitcounter.com
 domain:redheadsound.studio
 domain:remanga.org
+domain:reso-med.com
 domain:restream-media.net
 domain:roistat.com
 domain:rosbank-credit.com
