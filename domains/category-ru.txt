@@ -24,6 +24,7 @@ domain:absolutbank.com
 domain:accesspoint.uz
 domain:acmvid.com
 domain:adsadvisor.io
+domain:adygtelecom.com
 domain:aihome.dev
 domain:aksyuterian.com
 domain:alefbank.com
