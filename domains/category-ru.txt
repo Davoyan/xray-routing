@@ -317,6 +317,7 @@ domain:jivosite.com
 domain:jump.finance
 domain:jump.taxi
 domain:justveryok.com
+domain:kalarona.org
 domain:kamkombank.pro
 domain:kaspersky-labs.com
 domain:kaspersky.be
