@@ -387,8 +387,6 @@ domain:kudago.com
 domain:lead-pro2023.online
 domain:lenta.com
 domain:lenta.tech
-domain:livejournal.com
-domain:livejournal.net
 domain:lmru.tech
 domain:locko-bank.info
 domain:lomont.site
