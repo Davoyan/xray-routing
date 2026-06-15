@@ -504,6 +504,8 @@ domain:pz.help
 domain:rabbitcounter.com
 domain:rbth.com
 domain:redheadsound.studio
+domain:reg.cloud
+domain:reg.com
 domain:remanga.org
 domain:reso-med.com
 domain:restream-media.net
