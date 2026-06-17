@@ -37,6 +37,7 @@ domain:acurapartswarehouse.com
 domain:adafruit.com
 domain:adam-audio.com
 domain:adblockplus.org
+domain:adguard-vpn.com
 domain:adguard.com
 domain:adidas.com
 domain:admin.instagram.com
@@ -434,6 +435,9 @@ domain:csskor.ill.in.ua
 domain:cub.red
 domain:currenttime.tv
 domain:curseforge.com
+domain:cursor-cdn.com
+domain:cursor.sh
+domain:cursorapi.com
 domain:cursorinfo.co.il
 domain:cvedetails.com
 domain:cyberghostvpn.com
@@ -604,6 +608,7 @@ domain:etahub.com
 domain:etsy.com
 domain:eu-iot-prod.aws.tcljd.com
 domain:euronews.com
+domain:europesays.com
 domain:euroradio.fm
 domain:eutrp.eu
 domain:event.on24.com
@@ -687,7 +692,12 @@ domain:forum.voynaplemyon.com
 domain:fotoforensics.com
 domain:foxnews.com
 domain:fragment.com
+domain:framer.app
 domain:framer.com
+domain:framercanvas.com
+domain:framercdn.com
+domain:framerstatic.com
+domain:framerusercontent.com
 domain:freecodecamp.org
 domain:freedomletters.org
 domain:freeimages.com
@@ -880,6 +890,7 @@ domain:images.discordapp.net
 domain:images.instagram.com
 domain:imgur.com
 domain:important-stories.com
+domain:incy.cc
 domain:indeed.com
 domain:indiehackers.com
 domain:infineon.com
@@ -928,6 +939,7 @@ domain:jamf.com
 domain:jetbrains.ai
 domain:jetbrains.com
 domain:jetbrains.space
+domain:jetbrains.team
 domain:jnn-pa.googleapis.com
 domain:joesandbox.com
 domain:joyreactor.cc
@@ -937,8 +949,6 @@ domain:jules.google
 domain:jules.google.com
 domain:jut-su.net
 domain:jut.su
-domain:jw-russia.org
-domain:jw.org
 domain:k1-api.wbagora.com
 domain:kaktus.media
 domain:kaleido.ai
@@ -1060,6 +1070,7 @@ domain:make.com
 domain:makersuite.google.com
 domain:malwarebytes.com
 domain:malwarebytes.org
+domain:manga-chan.me
 domain:mangadex.org
 domain:mangahub.ru
 domain:mangapark.net
@@ -1128,6 +1139,7 @@ domain:militarnyi.com
 domain:mintmobile.com
 domain:miracleptr.wordpress.com
 domain:mixcloud.com
+domain:mmcdn.com
 domain:mobile.events.data.microsoft.com
 domain:modartt.com
 domain:modrinth.com
@@ -1372,6 +1384,7 @@ domain:patreonusercontent.com
 domain:patriot.dp.ua
 domain:pay.buckaroo.nl
 domain:paypal.com
+domain:paywithmoon.com
 domain:pb.wtf
 domain:pbs.twimg.com
 domain:pbs.twimg.com.cdn.cloudflare.net
@@ -1702,6 +1715,8 @@ domain:severreal.org
 domain:sfdcopens.com
 domain:sgpstatp.com
 domain:sgsnssdk.com
+domain:sharefile.com
+domain:sharefile.io
 domain:shift.services.gearbox.com
 domain:shikimori.me
 domain:shikimori.one
@@ -1721,6 +1736,7 @@ domain:signon.goliath.prod.deadorbit.net
 domain:signon.goliath.prod.gravityshavings.net
 domain:signon2.deadorbit.net
 domain:signon2.gravityshavings.net
+domain:sigsauer.com
 domain:simplex.chat
 domain:simplex.im
 domain:simplix.info
@@ -1861,6 +1877,7 @@ domain:sydney.bing.com
 domain:syncfusion.com
 domain:synoforum.com
 domain:sysdig.com
+domain:syslog-ng.com
 domain:systemtek.co.uk
 domain:t-invariant.org
 domain:t.co
@@ -1916,6 +1933,7 @@ domain:thetruestory.news
 domain:thetvdb.com
 domain:thinkpads.com
 domain:thomas-krenn.com
+domain:threads.com
 domain:threads.net
 domain:threema.ch
 domain:ti.com
