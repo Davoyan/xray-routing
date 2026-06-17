@@ -65,10 +65,17 @@ jobs:
         ${{ env.CURL }} -o tmpdomains/raw/category-geoblock-ru.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/category-geoblock-ru
         
         ${{ env.CURL }} -o tmpdomains/raw/telegram.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/telegram.lst
+        ${{ env.CURL }} -o tmpdomains/raw/telegram_metacube.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/telegram.list        
         ${{ env.CURL }} -o tmpdomains/raw/google_play.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/google_play.lst
+        ${{ env.CURL }} -o tmpdomains/raw/google_play_metacube.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-play.list      
         ${{ env.CURL }} -o tmpdomains/raw/meta.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/meta.lst
+        ${{ env.CURL }} -o tmpdomains/raw/meta_metacube.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/meta.list   
         ${{ env.CURL }} -o tmpdomains/raw/youtube.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/youtube.lst
+        ${{ env.CURL }} -o tmpdomains/raw/youtube_metacube.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/youtube.list   
         ${{ env.CURL }} -o tmpdomains/raw/google_ai.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/google_ai.lst
+        ${{ env.CURL }} -o tmpdomains/raw/google_ai_metacube.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-gemini.list        
+
+        ${{ env.CURL }} -o tmpdomains/raw/supercell_metacube.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/supercell.list
 
         # Где не надо чистить формат
         ${{ env.CURL }} -o tmpdomains/ready/telegram2.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/telegram       
