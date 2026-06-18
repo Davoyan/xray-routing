@@ -2373,6 +2373,7 @@ domain:summerana.com
 domain:supercell.com
 domain:supercell.helpshift.com
 domain:supercell.net
+domain:supercell.zendesk.com
 domain:supercellcreators.com
 domain:supercellgames.com
 domain:supercellid.com
