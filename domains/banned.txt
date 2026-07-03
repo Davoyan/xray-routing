@@ -2249,7 +2249,11 @@ domain:sibreal.org
 domain:siemens-home.bsh-group.com
 domain:siemens.com
 domain:signal.art
+domain:signal.group
+domain:signal.link
+domain:signal.me
 domain:signal.org
+domain:signal.tube
 domain:signalusers.org
 domain:signon.goliath.prod.deadorbit.net
 domain:signon.goliath.prod.gravityshavings.net
