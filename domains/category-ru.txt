@@ -201,6 +201,7 @@ domain:flocktory.com
 domain:flomni.com
 domain:fon.bet
 domain:fon.promo
+domain:foto-planeta.com
 domain:four-seasons.group
 domain:freeassange.tech
 domain:freede.tech
@@ -498,10 +499,12 @@ domain:promodj.com
 domain:prostobank.online
 domain:psk
 domain:pskb.com
+domain:ptsecurity.com
 domain:pushgrow.io
 domain:pvubank.com
 domain:pz.help
 domain:rabbitcounter.com
+domain:randomgodbot.com
 domain:rbth.com
 domain:redheadsound.studio
 domain:reg.cloud
@@ -628,6 +631,7 @@ domain:selectel.live
 domain:senat.cloud
 domain:servercore.com
 domain:servercore.live
+domain:servicepipe.tech
 domain:set.ki
 domain:shedevrum.ai
 domain:shop-rt.com
@@ -661,6 +665,7 @@ domain:sputnikimages.com
 domain:sputnikmediabank.com
 domain:sputniknews.com
 domain:srv-hub.org
+domain:standoff365.com
 domain:static-storage.net
 domain:staticmy.com
 domain:su
