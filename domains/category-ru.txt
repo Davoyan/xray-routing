@@ -119,6 +119,7 @@ domain:comss.news
 domain:comss.one
 domain:comss.online
 domain:comss.org
+domain:copymonkey.app
 domain:corona-perevod.com
 domain:coronaperevod.com
 domain:creditdevelopment.pro
@@ -199,6 +200,8 @@ domain:facct.email
 domain:fix-price.com
 domain:flocktory.com
 domain:flomni.com
+domain:flowwow-images.com
+domain:flowwow.com
 domain:fon.bet
 domain:fon.promo
 domain:foto-planeta.com
@@ -206,6 +209,7 @@ domain:four-seasons.group
 domain:freeassange.tech
 domain:freede.tech
 domain:freedert.online
+domain:funpay.com
 domain:g-ib.ae
 domain:g-ib.sg
 domain:g-ib.us
@@ -218,6 +222,7 @@ domain:genotek.am
 domain:genotek.es
 domain:genotek.eu
 domain:genotek.health
+domain:gerwin.io
 domain:getsynapse.io
 domain:gib-global.com
 domain:gib.sg
@@ -486,6 +491,7 @@ domain:perevodkorona.com
 domain:pixonic.com
 domain:pobeda.page
 domain:polly.events
+domain:polza.ai
 domain:popmechanic.io
 domain:posl-t.org
 domain:premier.one
@@ -512,6 +518,7 @@ domain:reg.com
 domain:remanga.org
 domain:reso-med.com
 domain:restream-media.net
+domain:robotext.io
 domain:roistat.com
 domain:romanovs100.com
 domain:rosbank-credit.com
@@ -571,6 +578,7 @@ domain:ru.abchina.com
 domain:ru.ccb.com
 domain:ru.com
 domain:ru.net
+domain:rugpt.io
 domain:ruhub.tv
 domain:runewsrt.com
 domain:ruptly.agency
@@ -633,6 +641,7 @@ domain:servercore.com
 domain:servercore.live
 domain:servicepipe.tech
 domain:set.ki
+domain:sfunpay.com
 domain:shedevrum.ai
 domain:shop-rt.com
 domain:shopstory.live
@@ -701,6 +710,7 @@ domain:tilda.cc
 domain:tilda.ws
 domain:tildaapi.com
 domain:tildacdn.com
+domain:tildacdn.net
 domain:timeweb.cloud
 domain:timeweb.com
 domain:tinkoff-anketa.site
@@ -719,6 +729,7 @@ domain:tlnkoff-open.xyz
 domain:tochka-tech.com
 domain:tochka.com
 domain:tok.media
+domain:tokenator.top
 domain:topcards.pro
 domain:topdeposit.pro
 domain:trbcdn.net
