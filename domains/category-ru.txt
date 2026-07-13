@@ -833,6 +833,7 @@ domain:wb.am
 domain:wb.kg
 domain:wb.kz
 domain:wbautomation.tech
+domain:wbcontent.net
 domain:wbstatic.net
 domain:wbwh.tech
 domain:webvisor.com
