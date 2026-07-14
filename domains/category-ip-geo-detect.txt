@@ -74,6 +74,7 @@ domain:ipapi.is
 domain:ipbase.com
 domain:ipbot.com
 domain:ipcalf.com
+domain:ipcheck.ing
 domain:ipchicken.com
 domain:ipdata.co
 domain:ipecho.net

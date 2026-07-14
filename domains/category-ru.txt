@@ -38,7 +38,6 @@ domain:alfa-pc.com
 domain:alfa-usa.com
 domain:alfa.me
 domain:alfabank.com
-domain:alfabank.oavdo.amc
 domain:alfabank.st
 domain:alfafinance.biz
 domain:alfafuture.com
