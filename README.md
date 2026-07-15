@@ -6,7 +6,10 @@
 
 Прямые ссылки:<br>
 https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geoip.dat<br>
-https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geosite.dat
+https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geosite.dat<br>
+или<br>
+https://cdn.jsdelivr.net/gh/Davoyan/xray-routing@main/release/geoip.dat<br>
+https://cdn.jsdelivr.net/gh/Davoyan/xray-routing@main/release/geosite.dat
 
 ---
 
@@ -24,7 +27,8 @@ geoip.dat
     </tr>
     <tr>
       <td><code>wl-ru</code></td>
-      <td>IP доступные при любых ограничениях</td>
+      <td>IP доступные при любых ограничениях<br>
+      Взято отсюда и может быть не актуально: https://github.com/escapingworm/russia-whitelist</td>
     </tr>
     <tr>
       <td><code>private</code></td>
@@ -57,7 +61,8 @@ geosite.dat
     </tr>
     <tr>
       <td><code>wl-ru</code></td>
-      <td>Российские домены, доступные при любых ограничениях</td>
+      <td>Российские домены, доступные при любых ограничениях<br>
+      Взято отсюда и может быть не актуально: https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/whitelist</td>
     </tr>
     <tr>
       <td><code>private</code></td>
