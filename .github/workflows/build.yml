@@ -12,9 +12,14 @@ on:
   schedule:
     - cron: '45 1 * * *'
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   build-geofiles:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     env:
       CURL: "curl -fsSL --retry 3 --retry-delay 2 --retry-connrefused"
     permissions:
@@ -45,6 +50,10 @@ jobs:
         ${{ env.CURL }} -o ips/ru.txt https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/refs/heads/main/ip-for-ru/lists/ips-for-ru.txt
         ${{ env.CURL }} -o ips/wl-ru.txt https://raw.githubusercontent.com/escapingworm/russia-whitelist/refs/heads/main/ru-whitelist-cidr.txt
 
+        for f in ips/*.txt; do
+          test -s "$f" || { echo "::error::Empty or missing file: $f"; exit 1; }
+        done
+
     - name: Create domains folder
       run: |
         set -euo pipefail
@@ -71,10 +80,18 @@ jobs:
         ${{ env.CURL }} -o tmpdomains/raw/google_ai_metacube.txt      https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-gemini.list
         ${{ env.CURL }} -o tmpdomains/raw/signal_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/signal.list
         ${{ env.CURL }} -o tmpdomains/raw/supercell_metacube.txt      https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/supercell.list
+        ${{ env.CURL }} -o tmpdomains/raw/intel_metacube.txt          https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/intel.list
+        ${{ env.CURL }} -o tmpdomains/raw/amd_metacube.txt            https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amd.list
+        ${{ env.CURL }} -o tmpdomains/raw/nvidia_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nvidia.list
+        ${{ env.CURL }} -o tmpdomains/raw/category-ai_metacube.txt    https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.list
 
         # Где не надо чистить формат
-        ${{ env.CURL }} -o tmpdomains/ready/telegram2.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/telegram       
+        ${{ env.CURL }} -o tmpdomains/ready/telegram2.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/telegram
         ${{ env.CURL }} -o tmpdomains/ready/youtube2.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/youtube
+
+        for f in tmpdomains/raw/*.txt tmpdomains/ready/*.txt; do
+          test -s "$f" || { echo "::error::Empty or missing file: $f"; exit 1; }
+        done
 
         {
           awk '
@@ -126,6 +143,10 @@ jobs:
         ${{ env.CURL }} -o domains/category-ip-geo-detect.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ip-geo-detect.list
 
         for f in domains/*.txt; do
+          test -s "$f" || { echo "::error::Empty or missing file: $f"; exit 1; }
+        done
+
+        for f in domains/*.txt; do
           awk '
             {
               gsub(/\r/, "")
@@ -168,6 +189,10 @@ jobs:
         ${{ env.CURL }} -o domains/private.txt https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/master/data/private
 
         for f in domains/*.txt; do
+          test -s "$f" || { echo "::error::Empty or missing file: $f"; exit 1; }
+        done
+
+        for f in domains/*.txt; do
           awk '
             {
               gsub(/\r/, "")
@@ -207,7 +232,7 @@ jobs:
         test -s /tmp/out/dlc.dat
         cp -f /tmp/out/dlc.dat release/geosite.dat
 
-    - name: Checkout geosite builder
+    - name: Checkout geoip builder
       uses: actions/checkout@v6
       with:
         repository: Loyalsoldier/geoip
@@ -246,25 +271,26 @@ jobs:
         
     - name: Install geoip tool
       run: |
+        set -euo pipefail
         go install github.com/Loyalsoldier/geoip@latest
-        
+
     - name: Build dat
       run: |
+        set -euo pipefail
         geoip convert
-       
+
     - name: Generate hash
       run: |
+        set -euo pipefail
         sha256sum release/geoip.dat > release/geoip.dat.sha256sum
         sha256sum release/geosite.dat > release/geosite.dat.sha256sum
-    
 
     - name: Commit and push generated files
       run: |
+        set -euo pipefail
         git config user.name "Geofiles Generator"
         git config user.email "geofiles-generator@github.com"
         mkdir -p ips domains release
-        git add ips/*
-        git add domains/*
-        git add release/*
+        git add -A ips domains release
         git commit -m "Update Geofiles" || echo "No changes"
         git push
