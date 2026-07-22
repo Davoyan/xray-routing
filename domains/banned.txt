@@ -127,7 +127,6 @@ domain:amx.com
 domain:analog.com
 domain:analytics.facebook.com
 domain:andrevi.ch
-domain:android.clients.google.com
 domain:angryemailtranslator.com
 domain:anidub.com
 domain:anilib.me
@@ -251,7 +250,6 @@ domain:bbci.co.uk
 domain:bcbits.com
 domain:bdurl.net
 domain:beacon3d.com
-domain:beacons.gvt2.com
 domain:beammp.com
 domain:beamng.com
 domain:beamng.gmbh
@@ -455,7 +453,6 @@ domain:community.sophos.com
 domain:como-hackearfacebook.com
 domain:componentkit.org
 domain:connect.ngrok-agent.com
-domain:connectivitycheck.gstatic.com
 domain:consent.trustarc.com
 domain:contabo.com
 domain:contest.com
@@ -1007,7 +1004,6 @@ domain:filmix.fm
 domain:filmix.la
 domain:findagrave.com
 domain:fingerium.stream.voidboost.cc
-domain:firebaseinstallations.googleapis.com
 domain:firefly-ps.adobe.io
 domain:fitbit-pa.googleapis.com
 domain:fitbit.google.com
@@ -1477,7 +1473,6 @@ domain:lf16-pkgcdn.pitaya-clientai.com
 domain:lf19-pkgcdn.pitaya-clientai.com
 domain:lgeapi.com
 domain:lgthinq.com
-domain:lh3.googleusercontent.com
 domain:lib.rus.ec
 domain:libgen.li
 domain:libgen.rs
@@ -1989,7 +1984,6 @@ domain:primevue.org
 domain:privatekeys.pw
 domain:prnt.sc
 domain:proactivebackend-pa.googleapis.com
-domain:prod-lt-playstoregatewayadapter-pa.googleapis.com
 domain:prod-network-api.wbagora.com
 domain:production-openaicom-storage.azureedge.net
 domain:proekt.media
@@ -2312,7 +2306,6 @@ domain:sovanews.tv
 domain:sovetromantica.com
 domain:spacelift.io
 domain:spaceship.com
-domain:speechs3proto2-pa.googleapis.com
 domain:speedtest.net
 domain:spektr.press
 domain:spiceworks.com
