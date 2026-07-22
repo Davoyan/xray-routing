@@ -83,6 +83,7 @@ jobs:
         ${{ env.CURL }} -o tmpdomains/raw/intel_metacube.txt          https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/intel.list
         ${{ env.CURL }} -o tmpdomains/raw/amd_metacube.txt            https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amd.list
         ${{ env.CURL }} -o tmpdomains/raw/nvidia_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nvidia.list
+        ${{ env.CURL }} -o tmpdomains/raw/x_metacube.txt              https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/x.list
         ${{ env.CURL }} -o tmpdomains/raw/category-ai_metacube.txt    https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.list
 
         # Где не надо чистить формат
