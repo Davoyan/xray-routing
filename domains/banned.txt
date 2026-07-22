@@ -2985,6 +2985,7 @@ domain:twitpic.com
 domain:twitter.biz
 domain:twitter.com
 domain:twitter.jp
+domain:twitter.map.fastly.net
 domain:twittercommunity.com
 domain:twitterflightschool.com
 domain:twitterinc.com
