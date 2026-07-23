@@ -67,11 +67,11 @@ jobs:
         rm -rf tmpdomains/raw/* tmpdomains/ready/*
 
         # Где надо чистить формат
-        ${{ env.CURL }} -o tmpdomains/raw/itdog-russia-inside-raw.txt https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-raw.lst
-        ${{ env.CURL }} -o tmpdomains/raw/community-antifilter-domains.txt https://community.antifilter.download/list/domains.lst
-        ${{ env.CURL }} -o tmpdomains/raw/community-refilter-domains.txt https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/community.lst
+        ${{ env.CURL }} -o tmpdomains/raw/itdog-russia-inside-raw.txt       https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-raw.lst
+        ${{ env.CURL }} -o tmpdomains/raw/community-antifilter-domains.txt  https://community.antifilter.download/list/domains.lst
+        ${{ env.CURL }} -o tmpdomains/raw/community-refilter-domains.txt    https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/community.lst
         
-        ${{ env.CURL }} -o tmpdomains/raw/category-geoblock-ru.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/category-geoblock-ru
+        ${{ env.CURL }} -o tmpdomains/raw/category-geoblock-ru.txt    https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/category-geoblock-ru
         
         ${{ env.CURL }} -o tmpdomains/raw/telegram_metacube.txt       https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/telegram.list        
         ${{ env.CURL }} -o tmpdomains/raw/google_play_metacube.txt    https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-play.list      
@@ -100,12 +100,13 @@ jobs:
         ${{ env.CURL }} -o tmpdomains/raw/tumblr_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/tumblr.list
         ${{ env.CURL }} -o tmpdomains/raw/bluesky_metacube.txt        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bluesky.list
         ${{ env.CURL }} -o tmpdomains/raw/reddit_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/reddit.list
+        ${{ env.CURL }} -o tmpdomains/raw/anticensorship_metacube.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-anticensorship.list
         ${{ env.CURL }} -o tmpdomains/raw/internet-archive.txt        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/internet-archive.list
         ${{ env.CURL }} -o tmpdomains/raw/category-ai_metacube.txt    https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.list
 
         # Где не надо чистить формат
-        ${{ env.CURL }} -o tmpdomains/ready/telegram2.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/telegram
-        ${{ env.CURL }} -o tmpdomains/ready/youtube2.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/youtube
+        ${{ env.CURL }} -o tmpdomains/ready/telegram2.txt             https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/telegram
+        ${{ env.CURL }} -o tmpdomains/ready/youtube2.txt              https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/youtube
 
         for f in tmpdomains/raw/*.txt tmpdomains/ready/*.txt; do
           test -s "$f" || { echo "::error::Empty or missing file: $f"; exit 1; }
