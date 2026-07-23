@@ -99,6 +99,7 @@ jobs:
         ${{ env.CURL }} -o tmpdomains/raw/deezer_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/deezer.list
         ${{ env.CURL }} -o tmpdomains/raw/tumblr_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/tumblr.list
         ${{ env.CURL }} -o tmpdomains/raw/bluesky_metacube.txt        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bluesky.list
+        ${{ env.CURL }} -o tmpdomains/raw/reddit_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/reddit.list
         ${{ env.CURL }} -o tmpdomains/raw/internet-archive.txt        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/internet-archive.list
         ${{ env.CURL }} -o tmpdomains/raw/category-ai_metacube.txt    https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.list
 
