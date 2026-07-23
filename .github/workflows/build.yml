@@ -168,18 +168,18 @@ jobs:
               if ($0 ~ /^\+\./) {
                 s = $0
                 sub(/^\+\./, "", s)
-                print "domain:" s
+                print s
                 next
               }
 
               if ($0 ~ /^\./) {
                 s = $0
                 sub(/^\./, "", s)
-                print "domain:" s
+                print s
                 next
               }
 
-              print "domain:" $0
+              print
             }
           ' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
         done
