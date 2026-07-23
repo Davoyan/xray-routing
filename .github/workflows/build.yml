@@ -96,6 +96,7 @@ jobs:
         ${{ env.CURL }} -o tmpdomains/raw/deviantart_metacube.txt     https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/deviantart.list
         ${{ env.CURL }} -o tmpdomains/raw/spotify_metacube.txt        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.list
         ${{ env.CURL }} -o tmpdomains/raw/canva_metacube.txt          https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/canva.list
+        ${{ env.CURL }} -o tmpdomains/raw/deezer_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/deezer.list
         ${{ env.CURL }} -o tmpdomains/raw/category-ai_metacube.txt    https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.list
 
         # Где не надо чистить формат
