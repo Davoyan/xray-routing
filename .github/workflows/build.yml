@@ -212,6 +212,7 @@ jobs:
 
         shopt -s nullglob
         for f in domains/*.txt; do
+          sed -i 's/^domain://' "$f"
           LC_ALL=C sort -u "$f" > "$f.tmp"
           mv "$f.tmp" "$f"
         done
