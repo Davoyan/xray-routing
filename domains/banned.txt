@@ -2534,6 +2534,7 @@ domain:rutracker.net
 domain:rutracker.org
 domain:rutracker.ru
 domain:rutracker.wiki
+domain:s-bid.rmp.rakuten.com
 domain:s3-1.amazonaws.com
 domain:saerasoft.com
 domain:saffrontech.com
@@ -3036,6 +3037,8 @@ domain:v.vrv.co
 domain:v16-tiktokcdn-com.akamaized.net
 domain:vagrantcloud.com
 domain:vaio.com
+domain:vbcdn.com
+domain:vbcdn.net
 domain:vectorworks.net
 domain:veeam.com
 domain:velocidrone.com
@@ -3046,7 +3049,9 @@ domain:vesma.one
 domain:vesma.today
 domain:vesty.co.il
 domain:vhd.zetflix.online
+domain:viber.co
 domain:viber.com
+domain:viber.me
 domain:vice.com
 domain:video.twimg.com
 domain:video.twimg.com.cdn.cloudflare.net
