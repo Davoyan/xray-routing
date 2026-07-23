@@ -12,6 +12,7 @@
 3dns-4.adobe.com
 3dns-5.adobe.com
 3dns.adobe.com
+4everland.io
 4freerussia.org
 4pda.ru
 4pda.to
@@ -151,6 +152,7 @@ agar.io
 agentclientprotocol.com
 agents.media
 agentura.ru
+ahmia.fi
 ahrefs.com
 ai-chat.bsg.brave.com
 ai.com
@@ -168,6 +170,7 @@ airhornbot.com
 aisandbox-pa.googleapis.com
 aistudio.google.com
 aitestkitchen.withgoogle.com
+akasha.world
 akc.org
 alberta.ca
 alienwarearena.com
@@ -253,6 +256,7 @@ app.amplitude.com
 app.m3u.in
 app.paraswap.io
 app.zerossl.com
+applecensorship.com
 appstorrent.ru
 apt.releases.hashicorp.com
 aqicn.org
@@ -384,6 +388,7 @@ broccolionline.jp
 broncosportforum.com
 bronto.com
 browser-intake-datadoghq.com
+browserleaks.com
 bsky.app
 bsky.network
 bsky.social
@@ -408,6 +413,7 @@ buyingfacebooklikes.com
 buymeacoffee.com
 buyoculus.com
 by.me
+bypasscensorship.org
 byspotify.com
 bytecdn.cn
 byted.org
@@ -433,6 +439,7 @@ byteoversea.com
 byteoversea.net
 bytetcdn.com
 bytewlb.akadns.net
+c4rex.co
 caesium.app
 calculatorsoup.com
 cambiumnetworks.com
@@ -468,6 +475,8 @@ celebgramme.com
 celeron.com
 celeron.net
 censor.net
+censorship.ai
+censorship.no
 censortracker.org
 census.gov
 centrino.com
@@ -475,6 +484,7 @@ centrino.net
 cerebras.ai
 certifytheweb.com
 cesium.com
+cf-ipfs.com
 chainreactioncycles.com
 chaos.com
 charhub.io
@@ -504,6 +514,8 @@ circlecrewpinkcrowd.com
 cisco.com
 ciscobinary.openh264.org
 cisecurity.org
+citizenlab.ca
+citizenlab.org
 citrix.com
 clamav.net
 clarabridge.net
@@ -512,6 +524,7 @@ clashmini.com
 clashofclans.com
 clashroyale.com
 clashroyaleapp.com
+clashyun.com
 clau.de
 claude.ai
 claude.com
@@ -531,6 +544,7 @@ cloudaicompanion.googleapis.com
 cloudcode-pa.googleapis.com
 cloudflare-dns.com
 cloudflare-ech.com
+cloudflare-ipfs.com
 cloudflareclient.com
 cloudinsights.com
 cloudtorrents.com
@@ -608,6 +622,7 @@ crowdtangle.com
 croxyproxy.com
 crunchbase.com
 crunchyroll.com
+crustwebsites.net
 csskor.ill.in.ua
 cub.red
 currenttime.tv
@@ -633,6 +648,7 @@ danbooru.donmai.us
 darkproject.eu
 dashboard.algolia.com
 dashboard.gitguardian.com
+dat.foundation
 data-cdn.mbamupdates.com
 data.cline.bot
 database.clamav.net
@@ -656,6 +672,7 @@ delivery.2d.net.co
 dell.com
 dellcdn.com
 demdex.net
+democracy.earth
 depositphotos.com
 designer.microsoft.com
 designify.com
@@ -765,6 +782,7 @@ dv9cjr-conversions.appsflyersdk.com
 dv9cjr-dlsdk.appsflyersdk.com
 dv9cjr-launches.appsflyersdk.com
 dw.com
+dweb.link
 dyson.com
 dzcdn.net
 e-hentai.org
@@ -787,6 +805,7 @@ editorx.com
 edu-cisco.org
 ef.com
 ef.edu
+eff.org
 eggertspiele.de
 ehorussia.com
 ej.ru
@@ -808,6 +827,7 @@ envato-static.com
 envato.com
 envatousercontent.com
 epg.one
+epicbrowser.com
 epicgames.com
 epidemz.net.co
 eporner.com
@@ -1162,6 +1182,7 @@ fesebook.com
 fex.net
 ffacebook.com
 ffotolia.com
+ffprofile.com
 fgacebook.com
 ficbook.net
 ficeboock.com
@@ -1245,6 +1266,7 @@ framerusercontent.com
 freeb.com
 freebasics.com
 freebasics.net
+freebrowser.org
 freebs.com
 freecodecamp.org
 freedomletters.org
@@ -1255,7 +1277,11 @@ freefblikes.com
 freeimages.com
 freemedia.io
 freemyip.com
+freenetproject.org
 freeones.com
+freewechat.com
+freeweibo.com
+freezhihu.org
 freindfeed.com
 frescolib.org
 friendbook.info
@@ -1268,6 +1294,7 @@ fsacebok.com
 fscebook.com
 fsn1.your-objectstorage.com
 ftcdn.net
+fteproxy.org
 fujitsu.com
 fundraisingwithfacebook.com
 funnyfacebook.org
@@ -1294,6 +1321,7 @@ gamestop.com
 gaming.amazon.com
 gateway.ai.cloudflare.com
 gateway.discord.gg
+gateway.pinata.cloud
 geekyfuroshiki.com
 geforce.cn
 geforce.co.kr
@@ -1316,12 +1344,15 @@ geode-sdk.org
 geolocation.onetrust.com
 geospy.ai
 germania.one
+geti2p.net
+getlantern.org
 getoutline.com
 getoutline.org
 getsafeonline.org
 gfacecbook.com
 gfn.am
 gfotolia.com
+gfw.report
 ggpht.cn
 ggpht.com
 ghidra-sre.org
@@ -1344,6 +1375,7 @@ golosameriki.com
 gonift.com
 gonitro.com
 goodreads.com
+googlecensorship.org
 googleplay.com
 googletagmanager.com
 googlevideo.com
@@ -1376,6 +1408,8 @@ graph.whatsapp.net
 graty.me
 graylog.org
 grazie.ai
+greatfire.org
+greatfirevpn.com
 grizzlysms.com
 grok.com
 grok.x.com
@@ -1385,6 +1419,7 @@ grouponcdn.com
 groups.com
 gssv-play-prod.xboxlive.com
 gtagarage.com
+guardianproject.info
 guilded.gg
 gulagu.net
 gvt1.com
@@ -1401,11 +1436,13 @@ hackmd.io
 halooglasi.com
 hammerandchisel.ssl.zendesk.com
 happ-proxy.com
+happ.info
 happ.su
 happycolorapp.com
 hashicorp.com
 hashkey.com
 hath.network
+haveibeenpwned.com
 hayday.com
 haydaygame.com
 hbomax.com
@@ -1438,6 +1475,7 @@ hex-rays.com
 hf.co
 hf.space
 hhvm.com
+hiddify.com
 hifacebook.info
 hitomi.la
 hl2rcv.adobe.com
@@ -1780,6 +1818,17 @@ ionos.com
 ios.chat.openai.com
 ipburger.com
 iperf3serverlist.net
+ipfs-gateway.cloud
+ipfs.anonymize.com
+ipfs.best-practice.se
+ipfs.eternum.io
+ipfs.eth.aragon.network
+ipfs.fleek.co
+ipfs.io
+ipfs.lain.la
+ipfs.runfission.com
+ipfs.tech
+ipns.co
 ipstatp.com
 iptv.online
 is.fi
@@ -1807,8 +1856,10 @@ jetbrains.com.cn
 jetbrains.net
 jetbrains.space
 jetbrains.team
+jitsi.org
 jnn-pa.googleapis.com
 joesandbox.com
+jorropo.net
 joyreactor.cc
 jsfiddle.net
 jskor.ill.in.ua
@@ -1923,6 +1974,7 @@ locals.md
 login-account.net
 login.amd.com
 logo.com
+lokinet.org
 lolz.guru
 lookerstudio.google.com
 lookinside.com
@@ -2035,6 +2087,7 @@ messengerdevelopers.com
 meta.ai
 meta.com
 metacritic.com
+metacubex.one
 metademolab.com
 metal-archives.com
 metallica-api.wbagora.com
@@ -2168,6 +2221,7 @@ nflximg.net
 nflxsearch.net
 nflxso.net
 nflxvideo.net
+nftstorage.link
 ngrok.com
 nhentai.com
 nhentai.net
@@ -2342,6 +2396,7 @@ oneapi.io
 onetrust.com
 onfastspring.com
 oninstagram.com
+onionshare.org
 online-deals.net
 online-instagram.com
 onlineinstagram.com
@@ -2350,6 +2405,7 @@ onlinesim.io
 onlinesim.ru
 onshape.com
 ood.opsource.net
+ooni.org
 opal.google
 opal.google.com
 open.spotify.com
@@ -2370,6 +2426,7 @@ openculture.com
 opendroneid.org
 opengraphprotocol.com
 opengraphprotocol.org
+opengw.net
 openh264.org
 openlibrary.org
 openmedia.io
@@ -2380,6 +2437,7 @@ openspec.dev
 opentrackr.org
 openvino.ai
 openvinotoolkit.org
+openvpn.net
 openwrt.wk.cz
 opposition-news.com
 optanedifference.com
@@ -2410,6 +2468,7 @@ paddlestatus.com
 padi.com
 pages.dev
 pandasecurity.com
+pao-pao.net
 pap.pl
 paperpaper.io
 paperpaper.ru
@@ -2422,6 +2481,7 @@ paritydeals.com
 parse.com
 parsec.app
 parts-express.com
+paskoocheh.com
 passwordday.org
 path3.xtracloud.net
 patreon.com
@@ -2545,6 +2605,7 @@ premierleague.com
 primark.com
 primevideo.com
 primevue.org
+privacytools.io
 privatekeys.pw
 prnt.sc
 proactivebackend-pa.googleapis.com
@@ -2567,17 +2628,20 @@ protonvpn.com
 protonweb.com
 provereno.media
 prowlarr.com
+proxifier.com
 proxy.individual.githubcopilot.com
 proxyscrape.com
 pscdn.co
 pscp.tv
 psiphon.ca
+psiphon3.com
 pstatp.com
 ptc.com
 public.parsec.app
 pulselive.com
 pump.fun
 pvpessence.com
+pwnedpasswords.com
 pyrobot.org
 qaweb.dev
 qcad.org
@@ -2726,6 +2790,7 @@ s2stagehance.com
 s3-1.amazonaws.com
 saerasoft.com
 saffrontech.com
+sagernet.org
 sakhalin.info
 sakharovfoundation.org
 salesforce-experience.com
@@ -2806,6 +2871,7 @@ severreal.org
 sfdcopens.com
 sgpstatp.com
 sgsnssdk.com
+shadowsocks.org
 sharefile.com
 sharefile.io
 shift.services.gearbox.com
@@ -2842,6 +2908,7 @@ siliconmobility.com
 simplex.chat
 simplex.im
 simplix.info
+sing-box.app
 singlekey-id.com
 siport.com
 site.com
@@ -2885,6 +2952,8 @@ snyk.io
 soapui.org
 sobesednik.com
 sobesednik.ru
+softether-download.com
+softether.org
 software-static.download.prss.microsoft.com
 software.cisco.com
 solarwinds.com
@@ -2931,6 +3000,7 @@ squadbusters.com
 squadbustersgame.com
 squareup.com
 squietpc.com
+sspanel.net
 st.com
 st.kinovod.net
 stable.dl2.discordapp.net
@@ -2964,6 +3034,7 @@ stream.voidboost.cc
 streamable.com
 studychat.app
 stulchik.net
+stunnel.org
 suggestqueries.google.com
 summerana.com
 sun.com
@@ -3045,6 +3116,7 @@ telegramdownload.com
 telegraph.co.uk
 telemetr.io
 telesco.pe
+telex.cc
 tellapart.com
 templatemonster.com
 tempmail.plus
@@ -3147,8 +3219,10 @@ trailhead.com
 transferwise.com
 trellix.com
 tria.ge
+tribler.org
 trionworlds.com
 tripo3d.ai
+trojan-gfw.github.io
 trueblackmetalradio.com
 trustedanalytics.com
 trustedanalytics.net
@@ -3164,7 +3238,9 @@ ttwebview.com
 ttwstatic.com
 tubemogul.com
 tumblr.com
+tunsafe.com
 turbobit.net
+turkeyblocks.org
 turn.livekit.cloud
 tuta.com
 tuta.io
@@ -3180,6 +3256,7 @@ twin.me
 twinlife-systems.com
 twinme.com
 twirpx.com
+twister.net.co
 twitpic.com
 twitter.biz
 twitter.com
@@ -3225,6 +3302,7 @@ unscreen.com
 unsplash.com
 ununbium.stream.voidboost.cc
 upload.instagram.com
+uproxy.org
 upwork.com
 urlr.me
 usa.one
@@ -3233,6 +3311,9 @@ usercontent.dev
 usher.ttvnw.net
 v.vrv.co
 v16-tiktokcdn-com.akamaized.net
+v2fly.org
+v2ray.com
+v2ray.cool
 vagrantcloud.com
 vaio.com
 vbcdn.com
@@ -3247,6 +3328,7 @@ vesma.one
 vesma.today
 vesty.co.il
 vhd.zetflix.online
+via0.com
 viber.co
 viber.com
 viber.me
@@ -3270,14 +3352,17 @@ vokevr.com
 volkswagen-classic-parts.com
 vot-tak.tv
 votolia.com
+vpngate.jp
 vpngate.net
 vpngen.org
 vpnlove.me
 vpnpay.io
+vpnrouter.homes
 vpnunlimited.com
 vpro.com
 vpro.net
 vrv.co
+vuvuzela.io
 vyos.io
 vyos.net
 w.atwiki.jp
@@ -3326,6 +3411,7 @@ whatsappbrand.com
 wheather.com
 whispersystems.org
 white.instagram.com
+whonix.org
 whyfacebook.com
 wide-youtube.l.google.com
 widgetapp.stream
@@ -3339,6 +3425,8 @@ wiiugamepad.com
 wiivc.net
 wiki.fextralife.com
 wikidot.com
+wikileaks.org
+wikiunblocked.org
 wilsoncenter.org
 windguru.cz
 windows10spotlight.com
@@ -3349,6 +3437,7 @@ wip1.adobe.com
 wip2.adobe.com
 wip3.adobe.com
 wip4.adobe.com
+wireguard.com
 wise.com
 withyoutube.com
 wixmp.com
@@ -3529,6 +3618,7 @@ xnxx3.com
 xrite.com
 xscale.com
 xsts.auth.xboxlive.com
+xtls.github.io
 xtracloud.net
 xv-ru.com
 xvideos-cdn.com
@@ -3729,6 +3819,7 @@ zedge.net
 zendesk.com
 zendesk.de
 zerkalo.io
+zeronet.io
 zerossl.com
 zetalliance.org
 zetflix.online
