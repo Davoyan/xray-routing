@@ -103,6 +103,8 @@ aimlabs.com
 aimlabspages.kinsta.cloud
 airbrake.io
 aircanada.com
+airhorn.solutions
+airhornbot.com
 aisandbox-pa.googleapis.com
 aistudio.google.com
 aitestkitchen.withgoogle.com
@@ -269,6 +271,7 @@ bellingcat.com
 bestbuy.com
 bestchange.ru
 beyond.hg-cdn.com
+bigbeans.solutions
 bihus.info
 binoculus.com
 bitbucket.org
@@ -1481,6 +1484,7 @@ hackharassment.com
 hacklang.org
 hackmd.io
 halooglasi.com
+hammerandchisel.ssl.zendesk.com
 happ-proxy.com
 happ.su
 happycolorapp.com
@@ -3287,6 +3291,7 @@ walmart.com
 wariolandshakeit.com
 wariowarediy.com
 warnerbrosgames.com
+watchanimeattheoffice.com
 watchguard.com
 watermarkremover.io
 wbagora.com
