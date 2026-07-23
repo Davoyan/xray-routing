@@ -87,6 +87,15 @@ jobs:
         ${{ env.CURL }} -o tmpdomains/raw/viber_metacube.txt          https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/viber.list
         ${{ env.CURL }} -o tmpdomains/raw/discord_metacube.txt        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/discord.list
         ${{ env.CURL }} -o tmpdomains/raw/netflix_metacube.txt        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/netflix.list
+        ${{ env.CURL }} -o tmpdomains/raw/adobe_metacube.txt          https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/adobe.list
+        ${{ env.CURL }} -o tmpdomains/raw/oracle_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/oracle.list
+        ${{ env.CURL }} -o tmpdomains/raw/notion_metacube.txt         https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/notion.list
+        ${{ env.CURL }} -o tmpdomains/raw/protonmail_metacube.txt     https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/protonmail.list
+        ${{ env.CURL }} -o tmpdomains/raw/jetbrains_metacube.txt      https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/jetbrains.list
+        ${{ env.CURL }} -o tmpdomains/raw/imgur_metacube.txt          https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/imgur.list
+        ${{ env.CURL }} -o tmpdomains/raw/deviantart_metacube.txt     https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/deviantart.list
+        ${{ env.CURL }} -o tmpdomains/raw/spotify_metacube.txt        https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.list
+        ${{ env.CURL }} -o tmpdomains/raw/canva_metacube.txt          https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/canva.list
         ${{ env.CURL }} -o tmpdomains/raw/category-ai_metacube.txt    https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.list
 
         # Где не надо чистить формат
