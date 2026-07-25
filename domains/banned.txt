@@ -1971,6 +1971,7 @@ lmstudio.ai
 lnstagram-help.com
 localbitcoins.com
 locals.md
+log.rw
 login-account.net
 login.amd.com
 logo.com
@@ -3227,6 +3228,7 @@ trueblackmetalradio.com
 trustedanalytics.com
 trustedanalytics.net
 truthsocial.com
+try.rw
 tsmc.com
 ttapis.com
 ttdns2.com
