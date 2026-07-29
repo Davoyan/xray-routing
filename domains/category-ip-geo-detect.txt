@@ -98,6 +98,7 @@ ipqualityscore.com
 ipquery.io
 ipregistry.co
 iproyal.com
+ipsimple.org
 ipstack.com
 ipv4-check-perf.radar.cloudflare.com
 ipv4-internet.yandex.net
@@ -118,6 +119,7 @@ my-ip.io
 my.ipinfo.app
 myexternalip.com
 myip.com
+myip.dnsomatic.com
 myip.expert
 myip.la
 myip.link
@@ -128,6 +130,7 @@ myipaddress.com
 myiplookup.com
 mylocation.org
 nodedata.io
+nossl.sh
 osint.sh
 proxycheck.io
 realip.cc
