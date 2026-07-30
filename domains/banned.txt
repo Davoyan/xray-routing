@@ -200,6 +200,7 @@ amplitude.com
 amx.com
 analog.com
 analytics.facebook.com
+analytics.tiktok.com
 andrevi.ch
 angryemailtranslator.com
 anidub.com
@@ -3169,7 +3170,10 @@ tiktokcdn-eu.com
 tiktokcdn-eu.net
 tiktokcdn-in.com
 tiktokcdn-us.com
+tiktokcdn-us.com.edgesuite.net
 tiktokcdn.com
+tiktokcdn.com.akamaized.net
+tiktokcdn.com.edgesuite.net
 tiktokcdn.liveplay.myqcloud.com
 tiktokd.net
 tiktokd.org
@@ -3188,6 +3192,8 @@ tiktokshop.com
 tiktokstalk.com
 tiktokstaticb.com
 tiktokv.com
+tiktokv.com.edgekey.net
+tiktokv.com.edgesuite.net
 tiktokv.eu
 tiktokv.us
 tiktokw.eu
@@ -3233,6 +3239,7 @@ truthsocial.com
 try.rw
 tsmc.com
 ttapis.com
+ttcdn-us.com
 ttdns2.com
 ttdns3.com
 ttlivecdn.com
