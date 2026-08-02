@@ -1410,6 +1410,7 @@ graph.whatsapp.net
 graty.me
 graylog.org
 grazie.ai
+grazie.aws.intellij.net
 greatfire.org
 greatfirevpn.com
 grizzlysms.com
@@ -1856,7 +1857,10 @@ jetbrains.ai
 jetbrains.cloud
 jetbrains.com
 jetbrains.com.cn
+jetbrains.dev
 jetbrains.net
+jetbrains.org
+jetbrains.ru
 jetbrains.space
 jetbrains.team
 jitsi.org
@@ -1909,12 +1913,15 @@ knowyourmeme.com
 kolsar.org
 kor.ill.in.ua
 korrespondent.net
+kotl.in
+kotlinconf.com
 kotlinlang.org
 kovcheg.live
 kowalski7cc.xyz
 kpapp.link
 kroger.com
 krymr.com
+ktor.io
 kupujemprodajem.com
 kym-cdn.com
 l.instagram.com
@@ -2285,6 +2292,7 @@ nordaccount.com
 nordcdn.com
 nordvpn.com
 norton.com
+notebook.google.com
 notebooklm-pa.googleapis.com
 notebooklm.google
 notebooklm.google.com
@@ -3142,6 +3150,7 @@ t.me
 t3.chat
 tableau.com
 tailscale.com
+talkingkotlin.com
 talosintelligence.com
 tapnow.ai
 target.com
