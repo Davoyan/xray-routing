@@ -667,6 +667,8 @@ deepmind.google
 deepsource.com
 deepsource.io
 deepstatemap.live
+deepwiki.com
+deepwiki.org
 deezer.com
 delfi.lt
 delfi.lv
