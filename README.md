@@ -31,6 +31,12 @@ geoip.dat
       Взято отсюда и может быть не актуально: https://github.com/escapingworm/russia-whitelist</td>
     </tr>
     <tr>
+      <td><code>apple</code></td>
+      <td>IP Apple<br>
+      IP адреса, принадлежащие Apple<br>
+      AS714 + AS6185 + RDAP</td>
+    </tr>
+    <tr>
       <td><code>private</code></td>
       <td>IP локальных сетей</td>
     </tr>

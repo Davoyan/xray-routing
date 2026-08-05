@@ -54,6 +54,93 @@ jobs:
           test -s "$f" || { echo "::error::Empty or missing file: $f"; exit 1; }
         done
 
+    - name: Download and aggregate apple IP list
+      continue-on-error: true
+      run: |
+        set -euo pipefail
+        rm -rf tmpips
+        mkdir -p tmpips/src
+
+        ${{ env.CURL }} -o tmpips/src/as714.txt  https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/asn/AS714.list   # APPLE-ENGINEERING
+        ${{ env.CURL }} -o tmpips/src/as6185.txt https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/asn/AS6185.list  # APPLE-AUSTIN
+
+        #   RDAP организации Apple
+        #
+        #   APPLEC-1-Z     ARIN,  Apple Inc.
+        #   APPLEC-1       ARIN,  Apple Inc. (блоки Claris и IPv6)
+        #   ORG-AI216-RIPE RIPE,  Apple Inc.
+        #   ORG-ADIL1-RIPE RIPE,  Apple Distribution International Ltd (ирландское юрлицо Apple)
+        #   ORG-ASAP4-AP   APNIC, Apple South Asia Pte Ltd
+
+        n=0
+        while read -r url; do
+          n=$((n + 1))
+          ${{ env.CURL }} -H 'Accept: application/rdap+json' -o "tmpips/src/rdap-$n.json" "$url"
+        done <<'EOF'
+        https://rdap.arin.net/registry/entity/APPLEC-1-Z
+        https://rdap.arin.net/registry/entity/APPLEC-1
+        https://rdap.db.ripe.net/entity/ORG-AI216-RIPE
+        https://rdap.db.ripe.net/entity/ORG-ADIL1-RIPE
+        https://rdap.apnic.net/entity/ORG-ASAP4-AP
+        EOF
+
+        for f in tmpips/src/*; do
+          test -s "$f" || { echo "::error::Empty or missing file: $f"; exit 1; }
+        done
+
+        python3 - tmpips/apple.txt tmpips/src <<'PY'
+        import ipaddress
+        import json
+        import os
+        import sys
+
+        out_path, source_dir = sys.argv[1], sys.argv[2]
+        nets = []
+
+        for name in sorted(os.listdir(source_dir)):
+            path = os.path.join(source_dir, name)
+            if name.endswith(".json"):
+                with open(path, encoding="utf-8") as fh:
+                    for net in json.load(fh).get("networks", []):
+                        nets.extend(
+                            ipaddress.summarize_address_range(
+                                ipaddress.ip_address(net["startAddress"]),
+                                ipaddress.ip_address(net["endAddress"]),
+                            )
+                        )
+            else:
+                with open(path, encoding="utf-8") as fh:
+                    for line in fh:
+                        line = line.split("#", 1)[0].strip()
+                        if line:
+                            nets.append(ipaddress.ip_network(line, strict=False))
+
+        with open(out_path, "w", encoding="utf-8", newline="\n") as out:
+            for version in (4, 6):
+                same = [n for n in nets if n.version == version]
+                for net in ipaddress.collapse_addresses(same):
+                    out.write(f"{net}\n")
+        PY
+
+        # Доп. проверка
+        grep -qx '17\.0\.0\.0/8' tmpips/apple.txt || { echo "::error::apple: в списке нет 17.0.0.0/8"; exit 1; }
+        test "$(wc -l < tmpips/apple.txt)" -ge 15 || { echo "::error::apple: подозрительно короткий список"; exit 1; }
+
+        mv tmpips/apple.txt ips/apple.txt
+        echo "apple: $(wc -l < ips/apple.txt) CIDR после аггрегации"
+
+    - name: Keep previous apple IP list if build failed
+      if: always()
+      run: |
+        set -euo pipefail
+        if [ -s ips/apple.txt ]; then
+          exit 0
+        fi
+
+        echo "::warning::apple: шаг сборки не отработал, оставляю прежний список из репозитория"
+        git checkout HEAD -- ips/apple.txt 2>/dev/null \
+          || { echo "::error::apple: нет ни нового списка, ни прежнего"; exit 1; }
+
     - name: Create domains folder
       run: |
         set -euo pipefail
