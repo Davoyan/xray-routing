@@ -66,11 +66,13 @@ jobs:
 
         #   RDAP организации Apple
         #
-        #   APPLEC-1-Z     ARIN,  Apple Inc.
-        #   APPLEC-1       ARIN,  Apple Inc. (блоки Claris и IPv6)
-        #   ORG-AI216-RIPE RIPE,  Apple Inc.
-        #   ORG-ADIL1-RIPE RIPE,  Apple Distribution International Ltd (ирландское юрлицо Apple)
-        #   ORG-ASAP4-AP   APNIC, Apple South Asia Pte Ltd
+        #   APPLEC-1-Z      ARIN,  Apple Inc.
+        #   APPLEC-1        ARIN,  Apple Inc. (блоки Claris и IPv6)
+        #   ORG-AI216-RIPE  RIPE,  Apple Inc.
+        #   ORG-ADIL1-RIPE  RIPE,  Apple Distribution International Ltd (ирландское юрлицо Apple)
+        #   ORG-ADIL3-RIPE  RIPE,  APPLE Distribution International LTD (кампус в Корке)
+        #   ORG-AA2866-RIPE RIPE,  Apple (европейские офисы)
+        #   ORG-ASAP4-AP    APNIC, Apple South Asia Pte Ltd
 
         n=0
         while read -r url; do
@@ -81,6 +83,8 @@ jobs:
         https://rdap.arin.net/registry/entity/APPLEC-1
         https://rdap.db.ripe.net/entity/ORG-AI216-RIPE
         https://rdap.db.ripe.net/entity/ORG-ADIL1-RIPE
+        https://rdap.db.ripe.net/entity/ORG-ADIL3-RIPE
+        https://rdap.db.ripe.net/entity/ORG-AA2866-RIPE
         https://rdap.apnic.net/entity/ORG-ASAP4-AP
         EOF
 
@@ -97,11 +101,33 @@ jobs:
         out_path, source_dir = sys.argv[1], sys.argv[2]
         nets = []
 
+        # Собственное пространство Apple
+        ALLOW_TYPES = {
+            "direct allocation",      # ARIN
+            "legacy",                 # RIPE
+            "allocated-by-rir",       # RIPE
+            "allocated-assigned pa",  # RIPE
+            "assigned pi",            # RIPE
+            "allocated portable",     # APNIC
+            "assigned portable",      # APNIC
+        }
+        
+        SKIP_TYPES = {"assigned", "assigned pa", "reassigned"}
+
         for name in sorted(os.listdir(source_dir)):
             path = os.path.join(source_dir, name)
             if name.endswith(".json"):
                 with open(path, encoding="utf-8") as fh:
                     for net in json.load(fh).get("networks", []):
+                        kind = net.get("type", "").strip().lower()
+                        if kind in SKIP_TYPES:
+                            continue
+                        if kind not in ALLOW_TYPES:
+                            print(
+                                f'::warning::apple: пропущен блок {net["startAddress"]}'
+                                f'-{net["endAddress"]} неизвестного типа "{net.get("type", "")}"'
+                            )
+                            continue
                         nets.extend(
                             ipaddress.summarize_address_range(
                                 ipaddress.ip_address(net["startAddress"]),
