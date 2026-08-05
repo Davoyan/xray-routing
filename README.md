@@ -33,7 +33,7 @@ geoip.dat
     <tr>
       <td><code>apple</code></td>
       <td>IP Apple<br>
-      IP адреса, принадлежащие Apple<br>
+			Рекомендуется использовать в связке с доменами Apple<br>
       AS714 + AS6185 + RDAP</td>
     </tr>
     <tr>
