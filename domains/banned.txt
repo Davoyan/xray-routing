@@ -4,6 +4,7 @@
 1337x.to
 24.kg
 2407.pl
+2dust.link
 2o7.net
 37signals.com
 3dns-1.adobe.com
@@ -522,10 +523,13 @@ citrix.com
 clamav.net
 clarabridge.net
 clash.com
+clashmi.app
 clashmini.com
 clashofclans.com
+clashparty.org
 clashroyale.com
 clashroyaleapp.com
+clashverge.dev
 clashyun.com
 clau.de
 claude.ai
@@ -1209,6 +1213,7 @@ fitbitvestibuleshim-pa.googleapis.com
 fitgirl-repacks.site
 fivetran.com
 flashscore.com
+flclashx.app
 flexpool.io
 flibusta.is
 flibusta.net
@@ -1221,6 +1226,7 @@ flow.dev
 flow.google
 flow.org
 flowtype.org
+flowvy.io
 fls.guru
 fluke.com
 flukenetworks.com
@@ -1881,6 +1887,7 @@ kaktus.media
 kaleido.ai
 kamatera.com
 kara.su
+karing.app
 kasparov.ru
 kavkaz-uzel.eu
 kavkazr.com
@@ -2064,6 +2071,7 @@ marvelsnap.com
 mashable.com
 master.qt.io
 matrix.org
+matsuridayo.github.io
 mattermost.com
 maven.neoforged.net
 max.com
@@ -2100,6 +2108,7 @@ messengerdevelopers.com
 meta.ai
 meta.com
 metacritic.com
+metacubex.github.io
 metacubex.one
 metademolab.com
 metal-archives.com
@@ -2316,6 +2325,7 @@ novayagazeta.eu
 novayagazeta.ru
 novyny.live
 nsf.gov
+nsloon.com
 ntc.party
 ntp.msn.com
 nude-moon.org
@@ -2408,6 +2418,7 @@ omv-extras.org
 oneapi.com
 oneapi.io
 onetrust.com
+onexray.com
 onfastspring.com
 oninstagram.com
 onionshare.org
@@ -2673,6 +2684,7 @@ primevideo.com
 primevue.org
 privacytools.io
 privatekeys.pw
+prizrak.app
 prnt.sc
 proactivebackend-pa.googleapis.com
 prod-network-api.wbagora.com
@@ -2724,6 +2736,7 @@ quora.com
 quora.com.cdn.cloudflare.net
 qwant.com
 r4.err.ee
+rabbit-hole-1.gitbook.io
 radarr.servarr.com
 radarr.video
 radeon.com
@@ -2938,6 +2951,7 @@ severreal.org
 sfdcopens.com
 sgpstatp.com
 sgsnssdk.com
+shadowlaunch.com
 shadowsocks.org
 sharefile.com
 sharefile.io
@@ -3075,6 +3089,8 @@ stalker2.com
 starfox.com
 startmail.com
 startpage.com
+stash.wiki
+stash.ws
 static-ss.xvideos-cdn.com
 static.cdninstagram.com
 static.files.bbci.co.uk
@@ -3220,6 +3236,7 @@ threadingbuildingblocks.org
 threads.com
 threads.net
 threema.ch
+throneproj.github.io
 thunderbolttechnology.net
 ti.com
 tidal.com
@@ -3472,6 +3489,7 @@ weebly.com
 wellfound.com
 welt.de
 wetransfer.com
+wgtunnel.com
 whatsapp-plus.info
 whatsapp-plus.me
 whatsapp-plus.net
@@ -3513,6 +3531,7 @@ wip2.adobe.com
 wip3.adobe.com
 wip4.adobe.com
 wireguard.com
+wiresock.net
 wise.com
 withyoutube.com
 wixmp.com
