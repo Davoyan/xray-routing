@@ -46,6 +46,7 @@ ip-adress.com
 ip-api.com
 ip-api.io
 ip-api.ru
+ip-check-perf.radar.cloudflare.com
 ip-check.info
 ip-score.com
 ip.comss.net
