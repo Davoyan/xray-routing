@@ -777,6 +777,7 @@ doxa.team
 doxajournal.ru
 dpidetector.org
 draftjs.org
+dreamgen.com
 dreamhost.com
 driver.gaomon.net
 drmario-world.com
@@ -1899,6 +1900,7 @@ kemono.su
 keysight.com
 kilo.ai
 kilocode.ai
+kimi.ai
 kingstagram.com
 kino.pub
 kinobase.org
@@ -2151,6 +2153,7 @@ monoprice.com
 monotype.com
 monotypefonts.com
 monster.ie
+moonshot.ai
 more.fm
 moscowtimes.ru
 motolia.com
@@ -2308,6 +2311,7 @@ notebooklm-pa.googleapis.com
 notebooklm.google
 notebooklm.google.com
 notebooklm.googleapis.com
+notegpt.io
 notepad-plus-plus.org
 notion-emojis.s3-us-west-2.amazonaws.com
 notion-media.com
@@ -2323,6 +2327,7 @@ novaline.fm
 novaya.no
 novayagazeta.eu
 novayagazeta.ru
+novelai.net
 novyny.live
 nsf.gov
 nsloon.com
@@ -3168,6 +3173,7 @@ t.me
 t3.chat
 tableau.com
 tailscale.com
+talkai.info
 talkingkotlin.com
 talosintelligence.com
 tapnow.ai
@@ -3643,7 +3649,6 @@ wwis-dubc1-vip97.adobe.com
 wwis-dubc1-vip98.adobe.com
 wwis-dubc1-vip99.adobe.com
 www-facebook.com
-www.amd.com
 www.analog.com
 www.bbc.com
 www.cisco.com
