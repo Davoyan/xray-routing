@@ -79,14 +79,3 @@ geosite.dat
 
 
 <br>
-
-## Donation
-
-Самый простой способ поддержать меня, это нажать на звездочку (⭐) в верхней части страницы.<br>
-Если вы вдруг захотите меня поддержать деньгой:
-
-- **GRAM (TON): `UQCVlQkCHDJzlF0AfQmgvCa2rEASVG4gYAU6cAU_IR9qVQQs`**
-- **BTC: `bc1qr6yp275xhsph99r040lhe8ae5hkjpkx5ta0g7r`**
-- **SOL (SPL): `89g9rqRE8Hq6yE6NSiECCycjmv4vrQPrYzZDzoyRShq`**
-- **USDT (ERC20): `0x10255EbFbC434c32c8B4e885e96A4B4982B98849`**
-- **USDT (TRC20): `TK9oKk5AfcyDLzKWc96tGMwy4EGum72GiX`**
