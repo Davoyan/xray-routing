@@ -25,6 +25,7 @@ criminalip.io
 curlmyip.net
 dadata.ru
 db-ip.com
+dnscheck.tools
 dnsleaktest.com
 extreme-ip-lookup.com
 find-my-ip.com
@@ -110,6 +111,8 @@ iplocate.io
 iplocation.com
 iplocation.io
 iplocation.net
+iplogger.com
+iplogger.org
 iplookup.it
 ipme.co
 ipme.in
@@ -150,6 +153,7 @@ myip.eu
 myip.expert
 myip.fi
 myip.ge
+myip.happ.su
 myip.hk
 myip.id
 myip.is

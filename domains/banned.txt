@@ -1225,6 +1225,7 @@ flisland.net
 flourish.studio
 flow.dev
 flow.google
+flow.google.com
 flow.org
 flowtype.org
 flowvy.io
@@ -2306,6 +2307,7 @@ nordaccount.com
 nordcdn.com
 nordvpn.com
 norton.com
+notebook.google
 notebook.google.com
 notebooklm-pa.googleapis.com
 notebooklm.google
@@ -3217,6 +3219,7 @@ tenbyfotolia.com
 terraform.io
 terragraph.com
 teslasoft.org
+tfbnw.net
 tg.dev
 the-village.ru
 theaudiodb.com
