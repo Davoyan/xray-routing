@@ -1347,6 +1347,8 @@ geller-pa.googleapis.com
 gemini.google
 gemini.google.com
 gemini.gstatic.com
+geminiweb-pa.clients.google.com
+geminiweb-pa.clients6.google.com
 generativeai.google
 generativelanguage.googleapis.com
 geni.us
@@ -1518,6 +1520,7 @@ httpfacebook.com
 httpsfacebook.com
 httptoolkit.com
 httpwwwfacebook.com
+huarun.win
 huggingface.co
 humblebundle.com
 hume.ai
@@ -1940,6 +1943,7 @@ kym-cdn.com
 l.instagram.com
 labs.google
 labs.google.com
+labstailwind.pa.googleapis.com
 lambdalabs.com
 lamcdn.net
 langchain.com
@@ -2111,6 +2115,7 @@ messenger.com
 messengerdevelopers.com
 meta.ai
 meta.com
+metaaivm.com
 metacritic.com
 metacubex.github.io
 metacubex.one
@@ -2171,6 +2176,7 @@ mullvad.net
 multisim.com
 multporn.net
 muscdn.com
+muse.ai
 musemuse.cn
 music.youtube.com
 musica.ly
@@ -2454,6 +2460,7 @@ openamt.com
 openart.ai
 opencas.io
 openclaw.ai
+opencode.ai
 opencreate.org
 openculture.com
 opendroneid.org
