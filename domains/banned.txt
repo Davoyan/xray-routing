@@ -3177,6 +3177,7 @@ swissinfo.ch
 sydney.bing.com
 syncfusion.com
 synoforum.com
+syntx.ai
 sysdig.com
 syslog-ng.com
 systemtek.co.uk
