@@ -360,6 +360,7 @@ blog.business.instagram.com
 blog.instagram.com
 bloodhound.spotify.com
 bloody.com
+bluearchiveyostar.com
 bluefootcms.com
 bluehost.com
 bluesky-soft.com
@@ -1277,6 +1278,7 @@ framercanvas.com
 framercdn.com
 framerstatic.com
 framerusercontent.com
+freeanimehentai.net
 freeb.com
 freebasics.com
 freebasics.net
@@ -1454,6 +1456,7 @@ hacklang.org
 hackmd.io
 halooglasi.com
 hammerandchisel.ssl.zendesk.com
+hanime-cdn.com
 happ-proxy.com
 happ.info
 happ.su
@@ -2707,6 +2710,7 @@ prnt.sc
 proactivebackend-pa.googleapis.com
 prod-network-api.wbagora.com
 production-openaicom-storage.azureedge.net
+production.cloudfront.docker.com
 proekt.media
 profitwell.com
 projectcircuitbreaker.com
@@ -3742,6 +3746,7 @@ yeggi.com
 yithemes.com
 yle.fi
 yogalayout.com
+yostarplat.com
 youmind.ai
 youmind.com
 youmind.site
