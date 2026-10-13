@@ -2978,6 +2978,7 @@ shadowsocks.org
 sharefile.com
 sharefile.io
 shift.services.gearbox.com
+shikimori.io
 shikimori.me
 shikimori.one
 shiksha.com
