@@ -233,6 +233,7 @@ any.do
 anythingllm.com
 aol.com
 api.app.prod.grazie.aws.intellij.net
+api.elevenlabs.io
 api.fitbit.com
 api.github.com
 api.githubcopilot.com
@@ -1488,6 +1489,7 @@ healthline.com
 helioadditive.com
 hellonotion.com
 helm.releases.hashicorp.com
+help.elevenlabs.io
 help.instagram.com
 hentai-foundry.com
 heroku.com
