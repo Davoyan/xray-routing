@@ -641,6 +641,7 @@ cursor.com
 cursor.sh
 cursorapi.com
 cursorinfo.co.il
+cursorvm.com
 custhelp.com
 cvedetails.com
 cyberghostvpn.com
@@ -2457,6 +2458,7 @@ opal.google.com
 open.spotify.com
 openai.com
 openai.com.cdn.cloudflare.net
+openai.org
 openai.qualtrics.com
 openaiapi-site.azureedge.net
 openaiassets.blob.core.windows.net
@@ -3394,6 +3396,7 @@ twvid.com
 tx.me
 typekit.com
 typekit.net
+typesafe.ai
 typing.com
 ua
 uaudio.com
