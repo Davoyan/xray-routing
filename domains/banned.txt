@@ -2042,6 +2042,7 @@ magento.net
 magentocommerce.com
 magentoliveconference.com
 magentomobile.com
+magnific.com
 mail-api.proton.me
 mail.protonmail.com
 mailerlite.com
