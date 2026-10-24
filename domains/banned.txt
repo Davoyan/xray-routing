@@ -2157,6 +2157,9 @@ militarnyi.com
 minimax.io
 mintmobile.com
 miracleptr.wordpress.com
+miro-apps.com
+miro.com
+mirostatic.com
 mistral.ai
 mixcloud.com
 mktdns.com
@@ -2462,6 +2465,7 @@ onlineinstagram.com
 onlineradiobox.com
 onlinesim.io
 onlinesim.ru
+onlinewhiteboard.com
 onshape.com
 ood.opsource.net
 ooni.org
@@ -2798,6 +2802,7 @@ readdle.com
 readybot.io
 realbooru.com
 realist.online
+realtimeboard.com
 recoiljs.org
 reconinstruments.com
 reconjet.com
@@ -3528,6 +3533,7 @@ webnames.ca
 weborama.nl
 webscraper.io
 webtoons.com
+webwhiteboard.com
 weebly.com
 wellfound.com
 welt.de
