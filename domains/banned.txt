@@ -263,6 +263,9 @@ app.m3u.in
 app.paraswap.io
 app.zerossl.com
 applecensorship.com
+appsgenaiserver-pa.clients.google.com
+appsgenaiserver-pa.clients6.google.com
+appsgenaiserver-pa.googleapis.com
 appstorrent.ru
 apt.releases.hashicorp.com
 aqicn.org
