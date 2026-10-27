@@ -1,3 +1,4 @@
+
 <h1>На стадии тестирования и доработки.</h1>
 
 Файлы ежедневно автоматически обновляются.<br>
@@ -7,9 +8,11 @@
 Прямые ссылки:<br>
 https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geoip.dat<br>
 https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geosite.dat<br>
+https://raw.githubusercontent.com/Davoyan/xray-routing/main/release/geoas.dat<br>
 или<br>
 https://cdn.jsdelivr.net/gh/Davoyan/xray-routing@main/release/geoip.dat<br>
-https://cdn.jsdelivr.net/gh/Davoyan/xray-routing@main/release/geosite.dat
+https://cdn.jsdelivr.net/gh/Davoyan/xray-routing@main/release/geosite.dat<br>
+https://cdn.jsdelivr.net/gh/Davoyan/xray-routing@main/release/geoas.dat
 
 ---
 
@@ -77,5 +80,20 @@ geosite.dat
   </tbody>
 </table>
 
+---
 
+geoas.dat
+<table width="100%">
+  <tr>
+    <th>Категория</th>
+    <th>Описание</th>
+  </tr>
+</thead>
+  <tbody>
+    <tr>
+      <td><code>as&lt;номер&gt;</code><br>например <code>"ip": ["ext:geoas.dat:as13335"]</code></td>
+      <td>IP префиксы, которые анонсирует AS, по данным RIPE RIS: https://www.ripe.net/ris<br></td>
+    </tr>
+  </tbody>
+</table>
 <br>
