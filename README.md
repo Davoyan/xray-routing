@@ -92,7 +92,7 @@ geoas.dat
   <tbody>
     <tr>
       <td><code>as&lt;номер&gt;</code><br>например <code>"ip": ["ext:geoas.dat:as13335"]</code></td>
-      <td>IP префиксы, которые анонсирует AS, по данным RIPE RIS: https://www.ripe.net/ris<br></td>
+      <td>IP префиксы, которые анонсирует AS, по данным https://github.com/ipverse/as-ip-blocks<br></td>
     </tr>
   </tbody>
 </table>

@@ -167,7 +167,7 @@ jobs:
         git checkout HEAD -- ips/apple.txt 2>/dev/null \
           || { echo "::error::apple: нет ни нового списка, ни прежнего"; exit 1; }
 
-    - name: Download RIPE RIS dumps and build AS lists
+    - name: Download ipverse AS lists
       continue-on-error: true
       timeout-minutes: 5
       run: |
@@ -175,93 +175,41 @@ jobs:
         rm -rf tmpas
         mkdir -p tmpas
 
-        #   RIPE RIS: какие префиксы анонсирует каждая AS, по данным всех коллекторов RIS
-        #   Формат: <origin> <tab> <prefix> <tab> <сколько пиров RIS видят маршрут>
-        ${{ env.CURL }} -o tmpas/ris-ipv4.gz https://www.ris.ripe.net/dumps/riswhoisdump.IPv4.gz
-        ${{ env.CURL }} -o tmpas/ris-ipv6.gz https://www.ris.ripe.net/dumps/riswhoisdump.IPv6.gz
+        #   ipverse/as-ip-blocks: префиксы, которые анонсирует каждая AS, обновляется ежедневно
+        #   В архиве as/<номер>/ipv4-aggregated.txt и as/<номер>/ipv6-aggregated.txt
+        ${{ env.CURL }} -o tmpas/as-ip-blocks.tar.gz https://github.com/ipverse/as-ip-blocks/releases/latest/download/as-ip-blocks.tar.gz
 
-        python3 - tmpas <<'PY'
+        python3 - tmpas/as-ip-blocks.tar.gz tmpas/as <<'PY'
         import collections
-        import gzip
         import ipaddress
         import os
         import sys
+        import tarfile
 
-        work_dir = sys.argv[1]
-
-        # Сколько пиров RIS должны видеть маршрут: 1 берёт всё, включая анонсы только внутри РФ,
-        # 10 как в RIPEstat отсекает утечки, но и такие локальные анонсы тоже
-        MIN_PEERS = 1
-        # Без default route и без префиксов длиннее /24 и /48
-        PREFIX_LEN = {4: range(8, 25), 6: range(16, 49)}
-
-        # Спецсети, которые не должны попасть ни в одну AS (для IPv6 всё вне 2000::/3)
-        BOGONS = {4: [], 6: []}
-        for text in (
-            "0.0.0.0/8", "10.0.0.0/8", "100.64.0.0/10", "127.0.0.0/8", "169.254.0.0/16",
-            "172.16.0.0/12", "192.0.0.0/24", "192.0.2.0/24", "192.88.99.0/24", "192.168.0.0/16",
-            "198.18.0.0/15", "198.51.100.0/24", "203.0.113.0/24", "224.0.0.0/3",
-            "::/3", "4000::/2", "8000::/1", "2001::/32", "2001:2::/48", "2001:10::/28",
-            "2001:db8::/32", "2002::/16", "3ffe::/16", "3fff::/20",
-        ):
-            net = ipaddress.ip_network(text)
-            BOGONS[net.version].append((int(net.network_address), int(net.broadcast_address)))
-
-
-        def public_asn(asn):
-            # 0, AS_TRANS, документационные, частные и зарезервированные номера
-            return not (asn in (0, 23456) or 64496 <= asn <= 131071 or asn >= 4200000000)
-
-
-        def fail(message):
-            print(f"::error::geoas: {message}")
-            sys.exit(1)
-
+        archive, out_dir = sys.argv[1], sys.argv[2]
 
         nets = collections.defaultdict(list)
-        for version in (4, 6):
-            rows, complete = 0, False
-            with gzip.open(f"{work_dir}/ris-ipv{version}.gz", "rt", encoding="utf-8") as src:
-                for line in src:
-                    if line.startswith("%"):
-                        complete = complete or line.startswith("% End of dump")
-                        continue
-                    fields = line.split()
-                    if len(fields) != 3 or int(fields[2]) < MIN_PEERS:
-                        continue
-                    net = ipaddress.ip_network(fields[1], strict=False)
-                    if net.version != version or net.prefixlen not in PREFIX_LEN[version]:
-                        continue
-                    first, last = int(net.network_address), int(net.broadcast_address)
-                    if any(first <= b_last and b_first <= last for b_first, b_last in BOGONS[version]):
-                        continue
-                    # AS_SET из одной AS ({40179}) считаем этой AS, из нескольких пропускаем (RFC 9774)
-                    origins = set(fields[0].strip("{}").split(","))
-                    if len(origins) != 1:
-                        continue
-                    asn = origins.pop()
-                    if not public_asn(int(asn)):
-                        continue
-                    nets[asn].append(net)
-                    rows += 1
-
-            if not complete:
-                fail(f"дамп RIS IPv{version} оборван, нет строки '% End of dump'")
-            if rows < {4: 800_000, 6: 150_000}[version]:
-                fail(f"подозрительно мало префиксов IPv{version}: {rows}")
-            print(f"geoas: IPv{version}: {rows} префиксов")
+        with tarfile.open(archive) as tar:
+            for member in tar:
+                parts = member.name.split("/")
+                if len(parts) != 3 or parts[0] != "as" or not parts[1].isdigit() \
+                        or parts[2] not in ("ipv4-aggregated.txt", "ipv6-aggregated.txt"):
+                    continue
+                for line in tar.extractfile(member).read().decode("utf-8").splitlines():
+                    line = line.strip()
+                    if line and not line.startswith("#"):
+                        nets[parts[1]].append(ipaddress.ip_network(line))
 
         if len(nets) < 70_000:
-            fail(f"подозрительно мало AS: {len(nets)}")
+            print(f"::error::geoas: подозрительно мало AS: {len(nets)}")
+            sys.exit(1)
 
-        # Один файл на AS: as13335.txt, сначала IPv4, потом IPv6, после аггрегации
-        os.mkdir(f"{work_dir}/as")
+        # Один файл на AS: as13335.txt, сначала IPv4, потом IPv6. AS без префиксов в nets не попадают
+        os.mkdir(out_dir)
         for asn, items in nets.items():
-            with open(f"{work_dir}/as/as{asn}.txt", "w", encoding="utf-8", newline="\n") as out:
-                for version in (4, 6):
-                    same = [n for n in items if n.version == version]
-                    for net in ipaddress.collapse_addresses(same):
-                        out.write(f"{net}\n")
+            with open(f"{out_dir}/as{asn}.txt", "w", encoding="utf-8", newline="\n") as out:
+                for net in sorted(items, key=lambda n: (n.version, n)):
+                    out.write(f"{net}\n")
         print(f"geoas: {len(nets)} AS")
         PY
 
