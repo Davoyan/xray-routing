@@ -368,8 +368,17 @@ jobs:
     - name: Download xray ru domain lists
       run: |
         set -euo pipefail
-        ${{ env.CURL }} -o domains/wl-ru.txt https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/whitelist
         ${{ env.CURL }} -o domains/private.txt https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/master/data/private
+
+        # wl-ru: всё, что попадает в whitelist из vahellame/russia-whitelist-geosite.
+        # Сам whitelist состоит из include:, их раскрывает тот же domain-list-community
+        rm -rf /tmp/wl-src /tmp/wl-out
+        git clone -q --depth 1 https://github.com/vahellame/russia-whitelist-geosite /tmp/wl-src
+        pushd community >/dev/null
+        go run ./ --datapath=/tmp/wl-src/data --outputdir=/tmp/wl-out --exportlists=whitelist
+        popd >/dev/null
+        # Выгрузка в формате type:value:@attr1,@attr2, а на вход нужен type:value @attr1 @attr2
+        sed -e 's/:@/ @/' -e 's/,@/ @/g' /tmp/wl-out/whitelist.txt > domains/wl-ru.txt
 
         for f in domains/*.txt; do
           test -s "$f" || { echo "::error::Empty or missing file: $f"; exit 1; }

@@ -71,7 +71,7 @@ geosite.dat
     <tr>
       <td><code>wl-ru</code></td>
       <td>Российские домены, доступные при любых ограничениях<br>
-      Взято отсюда и может быть не актуально: https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/refs/heads/master/data/whitelist</td>
+      Всё, что входит в whitelist отсюда: https://github.com/vahellame/russia-whitelist-geosite</td>
     </tr>
     <tr>
       <td><code>private</code></td>
