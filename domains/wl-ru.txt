@@ -1,467 +1,425 @@
-1c-bitrix.ru
-1c.ru
-1cfresh.com
-1cloud.ru
-1internet.tv
-2gis.ae
-2gis.am
-2gis.az
-2gis.by
 2gis.com
-2gis.com.cy
-2gis.cz
-2gis.ge
-2gis.kg
-2gis.kz
 2gis.ru
-2gis.tj
-2gis.ua
-2gis.uz
-2ip.ru
-47news.ru
-4meeting.me
-5ka.ru
-5post.market
-abr.ru
-aclub.ru
-adfox.ru
-admetrica.ru
-adygeya.ru
-aeroflot.ru
-alfa-bank.com
-alfa-bank.ru
-alfa-finance.com
-alfa-fx.com
-alfa-pc.com
-alfa-usa.com
-alfabank.com
-alfabank.ru
-alfafinance.biz
-alfafinance.ru
-alfafuture.com
-alfafuture.ru
-alfafx.com
-alfaleasing.ru
-alfaprivate.com
-alformacap.com
-alformacapital.com
-altai.ru
-amur.ru
-anytimeru.com
-arkhangelsk.ru
-astrakhan.ru
-auth-nsdi.ru
-auto.ru
-av.ru
-avito.ru
-avito.st
-baltbank.ru
-banka-ui.dev
-banki.ru
-bankline.ru
-bashkiria.ru
 beeline.ru
-belgorod.ru
-beta-bank.com
-bir.ru
-bitrix24.ru
-bronevik.com
-bryansk.ru
-buryatia.ru
-cbg.ru
-cbr.ru
-cdn-tinkoff.ru
+cdn-vk.net
 cdn-vk.ru
-checkip.amazonaws.com
-chel.ru
-chelyabinsk.ru
-chita.ru
-chizhik.club
-chukotka.ru
-chuvashia.ru
-cikrf.ru
-citydrive.ru
-clstorage.net
-credistory.ru
-crimea.ru
-csat.ru
-cscampus.ru
-dagestan.ru
-dbankcloud.ru
-dbo-dengi.online
-dellin.ru
-dixy.ru
-dnevnik.ru
-dns-shop.ru
-dodopizza.ru
+clck.ru
 dom.ru
-domclick.ru
-donationalerts.com
-drweb.ru
 dzen.ru
 dzeninfra.ru
-e5.ru
-ebs.ru
-edadeal.io
-edadeal.ru
-edu.ru
-ekburg.ru
-emias.info
-fastvps.ru
-finuslugi.ru
-fivepost.ru
-fix-price.com
-freestylediabetes.ru
-gazeta.ru
-gazprombank.ru
-gazprombank.tech
-gazprompay.ru
-gorodpay.ru
-goskey.ru
+ertelecom.ru
+fasten.ru
+full:00.img.avito.st @edgecenter
+full:10.img.avito.st @edgecenter
+full:1c.ru
+full:1tv.ru @curator
+full:20.img.avito.st @cdnvideo
+full:30.img.avito.st @edgecenter
+full:360tv.ru
+full:40.img.avito.st @edgecenter
+full:5-tv.ru @ddosguard
+full:50.img.avito.st @edgecenter
+full:5d.5ka.ru @servicepipe
+full:5ka-media.x5static.net
+full:5ka.ru @servicepipe
+full:60.img.avito.st @edgecenter
+full:70.img.avito.st @cdnvideo
+full:80.img.avito.st @edgecenter
+full:90.img.avito.st @cdnvideo
+full:a.lmcdn.ru @edgecenter
+full:aeroflot.ru @ngenix
+full:aif.ru @ddosguard
+full:alfabank.ru
+full:android-mb.vtb.ru
+full:api-n.goldapple.ru @ngenix
+full:api-omni.x5.ru
+full:api.prod.digital.uni.rest @ngenix
+full:api.samokat.ru @servicepipe
+full:api.setka.ru
+full:app-mobile.medtochka.ru @servicepipe
+full:app.avito.ru
+full:app.gid.ru @stormwall
+full:app.medtochka.ru @servicepipe
+full:apteka.ru @curator
+full:assets.otello.ru
+full:async-online4.vtb.ru
+full:auchan.ru @curator
+full:auth.gid.ru @stormwall
+full:auto.ru
+full:av.ru @servicepipe
+full:avito.ru
+full:avitostat.avito.com
+full:azbukavkusa.ru @servicepipe
+full:banki.ru @stormwall
+full:belkacar.ru
+full:bitrix.info
+full:boxberry.ru
+full:burgerkingrus.ru @servicepipe
+full:c.dns-shop.ru
+full:catalog-images.x5static.net
+full:cbr.ru @ddosguard
+full:ccdn.goldapple.ru @ngenix
+full:cdek.ru @servicepipe
+full:cdn-asset.ura.news
+full:cdn-assets.setka.ru
+full:cdn.credistory.ru @ngenix
+full:cdn.dodostatic.net @ngenix
+full:cdn.er.ru @cdnvideo
+full:cdn.taxsee.ru
+full:cdn.uxfeedback.ru
+full:cdn1.tu-tu.ru @ngenix
+full:cdn2.tu-tu.ru @ngenix
+full:cdn3.uxfeedback.ru
+full:cdn4.tu-tu.ru @ngenix
+full:certs.t-bank-app.ru @cdnvideo
+full:chat-ct.pochta.ru
+full:chat-widget-iframe.tutu.ru @curator
+full:chat.mos.ru
+full:chat.s7.ru @servicepipe
+full:chat.taxsee.ru
+full:chat1.vtb.ru
+full:chat3.sbpvtb.ru
+full:chatsocket.taxsee.ru
+full:chizhik.club @servicepipe
+full:citydrive.ru @curator
+full:client.crrpay.ru
+full:code-push-api.samokat.ru @servicepipe
+full:core-colibri-api.samokat.ru @servicepipe
+full:credistory.ru @servicepipe
+full:crpt.ru @ddosguard
+full:cs.avito.ru
+full:ctc.ru @servicepipe
+full:damcdn.samokat.ru @ngenix
+full:dc.otpbank.ru
+full:delimobil.ru @curator
+full:dellin.ru @curator
+full:detmir.ru @ddosguard
+full:dixy.ru @curator
+full:dnevnik.ru @curator
+full:dns-shop.ru @curator
+full:dobro.ru
+full:dodopizza.com @servicepipe
+full:dodopizza.ru @servicepipe
+full:dodopizza.threads.im @servicepipe
+full:dom.ufanet.ru
+full:domashniy.ru @servicepipe
+full:dostavista.ru @stormwall
+full:ds.kaspersky.com
+full:dumatv.ru
+full:eapteka.ru @ngenix
+full:ebs.ru
+full:edu.burgerkingrus.ru @servicepipe
+full:emias.info
+full:energo.app
+full:er.ru @curator
+full:eraglonass.ru
+full:error-tracking.samokat.ru @servicepipe
+full:esapi.dodois.io @ngenix
+full:esia.credistory.ru @servicepipe
+full:esmdtpep.sbpvtb.ru
+full:esmdtpep.vtb.ru
+full:event-stream-api.magnit.ru @ngenix
+full:fda.middle-api.magnit.ru
+full:ff.setka.ru
+full:fix-price.com @servicepipe
+full:flypobeda.ru @servicepipe
+full:foxford.ru @curator
+full:friday.ru @ddosguard
+full:frontlog.tutu.ru @curator
+full:frontlogger.dodois.io @ngenix
+full:g0.sunlight.net @edgecenter
+full:g1.sunlight.net @cdnvideo
+full:g2.sunlight.net @edgecenter
+full:g3.sunlight.net @cdnvideo
+full:g4.sunlight.net @edgecenter
+full:g5.sunlight.net @cdnvideo
+full:g6.sunlight.net @edgecenter
+full:g7.sunlight.net @cdnvideo
+full:g8.sunlight.net @cdnvideo
+full:g9.sunlight.net @cdnvideo
+full:gazeta.ru
+full:gazprombank.ru
+full:gid.ru @stormwall
+full:gismeteo.ru
+full:globalapi.dodopizza.com @servicepipe
+full:go.detmir.st @ddosguard
+full:goldapple.ru @ngenix
+full:gov.ru
+full:grandtrain.ru @ddosguard
+full:grpc.prod.digital.uni.rest
+full:gu-st.ru @ngenix
+full:gw-fl5.x5.ru
+full:headless-cms5.vtb.ru
+full:health.samokat.ru @servicepipe
+full:hhcdn.ru
+full:homepage.5ka.ru
+full:hotel.tutu.ru @curator
+full:hr-link.ru
+full:i.letu.ru @ngenix
+full:id.magnit.ru @curator
+full:id.tutu.ru @curator
+full:id.x5.ru
+full:images-foodtech.magnit.ru
+full:images.cdn-cian.ru
+full:img.hhcdn.ru
+full:imgproxy.kuper.ru @ngenix
+full:imgproxy.prod.ya.magnit.ru
+full:info-mobile.medtochka.ru @servicepipe
+full:ivi.ru
+full:iz.ru @ddosguard
+full:kaspersky.com
+full:kazanexpress.ru @ngenix
+full:khl.ru @servicepipe
+full:kion.ru @curator
+full:kommersant.ru @curator
+full:kontur.ru
+full:kp.ru @stormwall
+full:ksn-ca-geo.kaspersky-labs.com
+full:ksn-cinfo-geo.kaspersky-labs.com
+full:ksn-ml-geo.kaspersky-labs.com
+full:kuper.ru @servicepipe
+full:lamoda.ru @curator
+full:lenta.com @curator
+full:lenta.ru
+full:lenta.tech @curator
+full:letu.ru @ngenix
+full:login.mos.ru
+full:m.avito.ru
+full:ma-prod.cdn.vkusnoitochka.ru
+full:magnit-api-cdn.prod.ya.magnit.ru
+full:magnit.ru @curator
+full:main-page.tutu.ru @curator
+full:mamadeti.ru @curator
+full:mapi.dns-shop.ru @curator
+full:mapi.dodois.io @servicepipe
+full:mapi.dodois.ru @servicepipe
+full:matchtv.ru @edgecenter
+full:mcdn.goldapple.ru @ngenix
+full:media.dodostatic.net @ngenix
+full:medsi.ru
+full:meet.medtochka.ru @servicepipe
+full:megamarket.ru @servicepipe
+full:metro-cc.ru @edgecenter
+full:middle-api.magnit.ru @curator
+full:mirtv.ru
+full:mk.ru
+full:mm.ru @ngenix
+full:mobile-api.energo.app
+full:mobile-api.vkusnoitochka.ru @curator
+full:modulbank.ru @servicepipe
+full:moex.com
+full:mos.ru
+full:motiv.me
+full:motivtelecom.ru
+full:mts-link.ru
+full:mtsbank.ru
+full:muz-tv.ru @servicepipe
+full:mvd.ru
+full:mvideo.ru @stormwall
+full:my.kaspersky.com
+full:myapelsin.ru
+full:mymts.ru @curator
+full:myspar.ru
+full:nalog.ru @ngenix
+full:netmonet.co @curator
+full:nextmobile.ru
+full:notifier.burgerkingrus.ru @servicepipe
+full:nspk.ru @servicepipe
+full:ntv.ru @ddosguard
+full:observability.x5.ru
+full:okko.ru @servicepipe
+full:okko.sport @servicepipe
+full:okko.tv @servicepipe
+full:okmarket.ru @servicepipe
+full:online.sbpvtb.ru
+full:online.vtb.ru
+full:orderapp-app-static.burgerkingrus.ru
+full:orderapp.burgerkingrus.ru @servicepipe
+full:otello.ru
+full:otpbank.ru @servicepipe
+full:otr-online.ru @curator
+full:parking.spb.ru
+full:passport.pochta.ru
+full:pay.dodois.io @servicepipe
+full:pay.mironline.ru
+full:pcdn.goldapple.ru @ngenix
+full:perekrestok.ru @servicepipe
+full:pervye.ru @ddosguard
+full:petrovich.ru @curator
+full:pikabu.ru @ddosguard
+full:pixel.id.x5.ru
+full:pochta.ru
+full:portal.s7cdn.online @cdnvideo
+full:premier.one @curator
+full:prodoctorov.ru @servicepipe
+full:profile-mobile.medtochka.ru @servicepipe
+full:psbank.ru
+full:public.s7cdn.online @cdnvideo
+full:rambler.ru
+full:rbc.ru @curator
+full:rg.ru @curator
+full:ria.ru
+full:robot.dostavista.ru @stormwall
+full:rostics.ru @ngenix
+full:rt.com @ddosguard
+full:rutube.ru @curator @servicepipe
+full:s.vtb.ru
+full:s2.sbpvtb.ru
+full:s3-portal.s7cdn.online @cdnvideo
+full:s7.ru @servicepipe
+full:samokat.ru @servicepipe
+full:sbermarket.ru @ngenix
+full:sbermobile.ru
+full:set.ki
+full:setka.ru
+full:smotrim.ru @curator
+full:sntr.avito.ru
+full:socket.avito.ru
+full:sokolov.ru @curator
+full:spastv.ru
+full:sport24.ru @curator
+full:sso-app5.vtb.ru
+full:ssp-gw.kuper.ru @servicepipe
+full:st.aliexpress.ru
+full:st.gismeteo.st @cdnvideo
+full:static-catalog.sokolov.ru @cdnvideo
+full:static-sso.gid.ru @cdnvideo
+full:static.apteka.ru
+full:static.avito.ru @cdnvideo
+full:static.cdn-cian.ru
+full:static.pochta.ru
+full:static.yoomoney.ru
+full:static3.mos.ru
+full:sting.samokat.ru @servicepipe
+full:sutochno.ru @servicepipe
+full:tass.com @servicepipe
+full:tass.ru @servicepipe
+full:taxsee.com
+full:taxsee.pro
+full:taxsee.ru
+full:ticketland.ru @servicepipe
+full:timeweb.cloud @curator
+full:tnt-online.ru @curator
+full:tsum.com @curator
+full:tsum.ru @curator
+full:tsx.x5static.net
+full:tutu.ru @curator
+full:tv3.ru
+full:tvc.ru @curator
+full:unleash.internal.setka.work
+full:ura.news @stormwall
+full:ura.ru @stormwall
+full:urent.ru
+full:user-api.tutu.ru @curator
+full:ux.tutu.ru @curator
+full:uxfeedback.ru
+full:vcdn.goldapple.ru @ngenix
+full:vedomosti.ru @curator
+full:vkusnoitochka.ru @curator
+full:vkusvill.ru @curator
+full:vmeste-rf.tv
+full:vprok.ru @ngenix
+full:vtb.ru
+full:vtbmobile.ru @curator
+full:web-static.samokat.ru @cdnvideo
+full:webium.ru @stormwall
+full:whoosh.bike @ddosguard
+full:widget.uxfeedback.ru
+full:wink.ru @ngenix
+full:www.alfabank.ru
+full:www.avito.ru
+full:www.avito.st @cdnvideo
+full:www.detmir.ru @ddosguard
+full:www.dns-shop.ru @curator
+full:www.gismeteo.ru
+full:www.kaspersky.com
+full:www.lamoda.ru @servicepipe
+full:www.letu.ru @ngenix
+full:www.mos.ru
+full:www.otpbank.ru @servicepipe
+full:www.perekrestok.ru @servicepipe
+full:www.pochta.ru
+full:www.s7.ru @servicepipe
+full:www.tutu.ru @curator
+full:www.yabloko.ru @ddosguard
+full:x5m-cdn-stage.x5static.net
+full:x5m-cdn.x5static.net
+full:x5m.x5.ru
+full:xn--80ajghhoc2aj1c8b.xn--p1ai @ddosguard
+full:xn--90ab2c.xn--p1ai
+full:xn--90acagbhgpca7c8c7f.xn--p1ai @ddosguard
+full:xn--90af4abj.xn--p1ai
+full:xn--b1aew.xn--p1ai
+full:xn--d1abb2a.xn--p1ai @stormwall
+full:yabloko.ru @ddosguard
+full:yoomoney.ru
+full:youla.io
+full:youla.ru
+full:znanierussia.ru @curator
+full:zvuk.com @servicepipe
+geobasket.ru
 gosuslugi.ru
-gov.ru
-government.ru
-gpb.ru
-gpmdi.ru
-grfc.ru
-grozny.ru
-gu-st.ru
-hematonix.ru
 hh.ru
-i-ola.ru
-ican-sinocare.ru
-idx5.ru
-ifconfig.me
 imgsmail.ru
-investalfabank.com
-ip.sb
-ipapi.is
-ipify.org
-iplocate.io
-irk.ru
-irkutsk.ru
-ivanovo.ru
-iz.ru
-izbirkom.ru
-izhevsk.ru
-jamal.ru
-jar.ru
-jivo.ru
-jivochat.com
-jivosite.com
-jx5.ru
-kalmykia.ru
-kaluga.ru
-kamchatka.ru
-karelia.ru
-kaspersky.com
-kaspersky.ru
-kazan.ru
-kazanexpress.ru
-kchr.ru
-kemerovo.ru
-khabarovsk.ru
-khakassia.ru
-khv.ru
-kinopoisk-ru.clstorage.net
 kinopoisk.ru
-kirov.ru
-koenig.ru
-kommersant.ru
-kostroma.ru
-kp.ru
-krasnodar.su
-krasnoyarsk.ru
-krasyar.ru
-krd.ru
-kremlin.ru
-kuban.ru
-kuper.ru
-kurgan.ru
-kursk.ru
-lead-pro2023.online
-lemanapro.ru
-lenta.com
-lenta.ru
-lipetsk.ru
-lmru.tech
-lumiflex.ru
-magadan.ru
-magnit.ru
 mail.ru
-mari-el.ru
-mari.ru
-marine.ru
 max.ru
-medtrum.eu
-medtrum.ru
 megafon.ru
-megamarket.ru
-megamarket.tech
-memealerts.com
-mgfoms.ru
-mil.ru
-mirpayonline.ru
-miya-news.online
-mm.ru
-mnogolososya.ru
-moex.com
-mordovia.ru
-mos.ru
-mosreg.ru
-mradx.net
 mts.ru
-mtsdengi.ru
-murmansk.ru
-mvk.com
-myapelsin.ru
 mycdn.me
-mymts.ru
-nalchik.ru
-nalog.ru
 naydex.net
-nbki.ru
-netmonet.co
-nn.ru
-nov.ru
-novosibirsk.ru
-nsk.ru
-nspk.ru
 ok.ru
 okcdn.ru
-okko.sport
-okko.tv
-okolo.app
-omsk.ru
 oneme.ru
-orb.ru
-oryol.ru
+ozon.com
 ozon.ru
+ozon.tech
 ozone.ru
+ozonru.me
 ozonusercontent.com
-penza.ru
-perekrestok.ru
-perm.ru
-pochta.ru
-psbank.ru
-psblog.ru
-psk
-psk.ru
-pskov.ru
-ptz.ru
-qms.ru
-rambler.ru
-rbc.ru
-res-nsdi.ru
-rkomi.ru
-rnd.ru
+paywb.com
 rostaxi.org
-rostelecom.ru
-rshb.ru
-rsscenter.cloud
+rt.avito.ru
 rt.ru
 rtbcdn.ru
-russiacalling.com
-rutube.ru
-rutubelist.ru
-ryazan.ru
-rzd-bonus.ru
+rustore.ru
 rzd.ru
-sakhalin.ru
-samara.ru
-saratov.ru
-sbermarket.ru
-sbermegamarket.ru
-sbpgpb.ru
-sev.ru
-sevastopol.ru
-simbirsk.ru
-sistema-capital.com
-smolensk.ru
-spb.ru
-spvb.ru
+sk.ru
 static-storage.net
-stavropol.ru
-stv.ru
-surgut.ru
-svoy.academy
 t2.ru
-tambov.ru
-tamtam.chat
-tatarstan.ru
 taximaxim.ru
-taxsee.com
-tbank-online.com
 tele2.ru
-timeweb.cloud
-timeweb.com
-tips.tips
-tnt-online.ru
-tochka-tech.com
-tochka.com
-tom.ru
-tomsk.ru
-topdelivery.ru
-trbcdn.net
-tsaritsyn.ru
-tsk.ru
-tsx.x5static.net
-tu-tu.ru
-tula.ru
-turbopages.org
-tutu.ru
-tuva.ru
-tver.ru
-tyumen.ru
-udm.ru
-udmurtia.ru
-ulan-ude.ru
-usedesk.ru
 userapi.com
-uxfeedback.ru
-vgtrk.ru
-victoria-group.ru
-vk-analytics.ru
-vk-apps.com
-vk-apps.ru
-vk-cdn.me
 vk-cdn.net
 vk-portal.net
 vk.cc
 vk.com
-vk.company
-vk.design
-vk.link
 vk.me
 vk.ru
-vk.team
-vkcache.com
-vkcloud-static.ru
-vkgo.app
-vklive.app
-vkmessenger.app
-vkmessenger.com
-vkontakte.ru
 vkuser.net
-vkuseraudio.com
 vkuseraudio.net
 vkuseraudio.ru
-vkusercdn.ru
-vkuserlive.net
 vkuserphoto.ru
-vkuservideo.com
-vkuservideo.net
-vkuservideo.ru
-vkusnoitochka.ru
-vkusvill.ru
 vkvideo.ru
-vl.ru
-vladikavkaz.ru
-vladimir.ru
-vladivostok.ru
-vlg.ru
-volgograd.ru
-vologda.ru
-voronezh.ru
-vrn.ru
-vtb-grants.fut.ru
-vtb-liga.fut.ru
-vtb-russia.com
-vtb.bank.in
-vtb.com
-vtb.corp.ru
-vtb.digital
-vtb.fut.ru
-vtb.promo
-vtb.ru
-vtb24.com
-vtb24.ru
-vtbcareer.com
-vtbfamily.ru
-vtbindia.com
-vtbkep.site
-vtbpartners.com
-vtbrussia.com
-vtbrussia.ru
-vtbstrana.ru
-vyatka.ru
 wb.ru
-webvisor.com
-webvisor.org
-whoosh.bike
+wbbasket.ru
+wbstatic.net
+wbwh.tech
+wibes.ru
+wildberries.com
 wildberries.ru
-windsurf.com
-wink.ru
-x5.ru
-x5.tech
-x5club.ru
-x5id.ru
-x5l.ru
-x5paket.ru
-x5q.ru
-xn----7sb7akeedqd.xn--p1ai
-xn--80aacoonefzg3am8b1fsb.xn--p1ai
-xn--80acgfbsl1azdqr.xn--p1ai
-xn--80ajghhoc2aj1c8b.xn--p1ai
-xn--90ab2c.xn--p1ai
-xn--90aifd0aza.site
-xn--b1aew.xn--p1ai
-xn--d1acpjx3f.xn--p1ai
 ya.ru
-yads.tech
-yakutia.ru
-yamal.ru
 yandex
-yandex-bank.net
 yandex-images.clstorage.net
-yandex-team.ru
-yandex.aero
-yandex.az
-yandex.by
-yandex.cloud
-yandex.co.il
+yandex-net.ru
 yandex.com
-yandex.com.am
-yandex.com.ge
-yandex.com.ru
-yandex.com.tr
-yandex.com.ua
-yandex.de
-yandex.ee
-yandex.eu
 yandex.fi
-yandex.fr
-yandex.jobs
-yandex.kg
-yandex.kz
-yandex.lt
-yandex.lv
-yandex.md
 yandex.net
-yandex.org
-yandex.pl
 yandex.ru
-yandex.st
-yandex.sx
-yandex.tj
-yandex.tm
-yandex.tr
-yandex.ua
-yandex.uz
-yandexadexchange.net
 yandexcloud.net
-yandexcom.net
-yandexmetrica.com
-yandexwebcache.net
-yandexwebcache.org
-yaroslavl.ru
-yastat.net
+yantp.net
 yastatic-net.ru
 yastatic.net
+yccdn.ru
+yndx.net
 yota.ru
-youla-web-static.mrgcdn.ru
-youla.io
-youla.ru
-yuzhno-sakhalinsk.ru
-zdrav10.ru
-zentotem.net
