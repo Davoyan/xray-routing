@@ -281,6 +281,7 @@ arena.ai
 arkoselabs.com
 arm.com
 artifacts.elastic.co
+artificialanalysis.ai
 as6723.net
 askfacebook.net
 askfacebook.org
@@ -559,6 +560,7 @@ clevelandclinic.org
 click-url.com
 clickup.com
 clients6.google.com
+cline.bot
 clip.opus.pro
 clipdrop.co
 cloud.mongodb.com
@@ -599,6 +601,7 @@ comfy.org
 comfyci.org
 comfyregistry.org
 comm-verse.com
+commandcode.ai
 comments.app
 community.cisco.com
 community.instagram.com
@@ -610,6 +613,7 @@ connect.ngrok-agent.com
 consent.trustarc.com
 contabo.com
 contest.com
+context7.com
 coomer.su
 copernicus.eu
 copilot-proxy.githubusercontent.com
@@ -2137,6 +2141,7 @@ messenger.com
 messengerdevelopers.com
 meta.ai
 meta.com
+metaaiusercontent.com
 metaaivm.com
 metacritic.com
 metacubex.github.io
@@ -2357,6 +2362,7 @@ notion.site
 notion.so
 notionup.com
 notionusercontent.com
+nousresearch.com
 novaline.fm
 novaya.no
 novayagazeta.eu
