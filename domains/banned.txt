@@ -235,6 +235,7 @@ antspace.dev
 any.do
 anythingllm.com
 aol.com
+api-dashboard.search.brave.com
 api.app.prod.grazie.aws.intellij.net
 api.elevenlabs.io
 api.fitbit.com
