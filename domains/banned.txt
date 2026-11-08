@@ -1453,6 +1453,7 @@ greatfirevpn.com
 grizzlysms.com
 grok.com
 grok.x.com
+grokbot.com
 grokipedia.com
 groq.com
 groupon.com
@@ -1542,6 +1543,7 @@ hromadske.ua
 hs.fi
 hsfacebook.com
 htmhell.dev
+http-intake.logs.us5.datadoghq.com
 httpfacebook.com
 httpsfacebook.com
 httptoolkit.com
@@ -2422,6 +2424,7 @@ nxp.com
 nyaa.si
 nyaa.tracker.wf
 o.pki.goog
+o1158394.ingest.us.sentry.io
 o33249.ingest.sentry.io
 o33249.ingest.us.sentry.io
 oaistatic.com
@@ -2739,6 +2742,7 @@ prizrak.app
 prnt.sc
 proactivebackend-pa.googleapis.com
 prod-network-api.wbagora.com
+production-copilot-host-westus.webpubsub.azure.com
 production-openaicom-storage.azureedge.net
 production.cloudfront.docker.com
 proekt.media
