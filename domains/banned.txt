@@ -2848,6 +2848,7 @@ refinitiv.com
 registry.terraform.io
 reka.ai
 releases.hashicorp.com
+remna.dev
 remna.st
 remove.bg
 render-state.to
