@@ -847,6 +847,7 @@ element14.com
 elements.envato.com
 elevenlabs.com
 elevenlabs.io
+elevenlabsusercontent.com
 elevenreader.io
 elgato.com
 elgiganten.se
